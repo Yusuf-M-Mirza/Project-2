@@ -11,3 +11,11 @@ Insights are provided investigating how each factor influences mental and phyisc
 - **Job Role**
 - **Hours Per Week**
 - **Salary Range**
+
+PowerQuery was used to clean and preprocess all of the data. It was also use to query the dataset. The data was then imported into Python as a csv file and subsequently analyzed.
+
+## Data Structure & Initial Checks
+
+<div align="center">
+  <img src="https://i.imgur.com/vb2yuBh.png" alt="TfL Cycle Hire" width="200" />
+</div>
