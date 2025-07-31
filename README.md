@@ -18,9 +18,10 @@ The dataset used consisted of a single table that contained all the data needed.
   <img src="https://i.imgur.com/vb2yuBh.png" alt="TfL Cycle Hire" width="200" />
 </div>
 
-Prior to beginning my analysis, PowerQuery was used to clean and preprocess all of the data. It was also use to query the dataset. The data was then imported into Python as a csv file and subsequently analyzed. That left us with 3157 lines of clean, ordered, usable data.
+Prior to beginning my analysis, PowerQuery was used to clean and preprocess all of the data. It was also use to query the dataset. The data was then imported into Python as a .csv file and subsequently analyzed. That left us with 3157 lines of clean, ordered, usable data.
 
 ## Executive Summary
 ### Overview of Findings
-### Work Arragement
+### Work Arrangement
+
 
