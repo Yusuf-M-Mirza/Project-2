@@ -26,10 +26,9 @@ Prior to beginning my analysis, PowerQuery was used to clean and preprocess all 
 Like it has been mentioned previously, since the pandemic, there has been an increased push towards remote working and its many supposed benefits. However, the data may show that to be untrue. 
 <div align="center">
   <img src="https://i.imgur.com/DEPG10Z.png" alt="TfL Cycle Hire" width="650" />
+  <img src="https://i.imgur.com/G1WzQxm.png" alt="TfL Cycle Hire" width="650" />
 </div>
 
 In the professional world, an overall metric for job satisfaction can be measured by levels of 'burnout'. Coined by psychologist Herbert Freudenberger in the 1970s, it describes the consequences of prolonged stress and exhaustion, particularly within careers. Levels of burnout can be rated as either 'High', 'Medium' or 'Low', and the chart above indicates in what proportions these levels are present based upon each working arrangement.
-As can be seen, Remote workers have an extremely high proportion of people ranked with 'High' burnout as opposed to Onsite and Hybrid employees. A far better method to quantify this would be giving each 'High', 'Medium' and 'Low' value a denomination of 2,1 and 0 respectively; tallying them up and comparing them.
-<div align="center">
-  <img src="https://i.imgur.com/DEPG10Z.png" alt="TfL Cycle Hire" width="650" />
-</div>
+As can be seen, Remote workers have an extremely high proportion of people ranked with 'High' burnout as opposed to Onsite and Hybrid employees. A far better method to quantify this would be giving each 'High', 'Medium' and 'Low' value a denomination of 2,1 and 0, respectively; tallying them up and comparing them. This more conclusively shows that Remote work produces the highest levels of burnout amongst employees and Onsite work produces the least.
+
