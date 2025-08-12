@@ -34,7 +34,7 @@ Like it has been mentioned previously, since the pandemic, there has been an inc
 
 - **'Burnout'** is a common metric of gauging job satisfaction amongst employees.
 - Remote workers experience **37.8% _higher_** levels of burnout than onsite workers and **13.8% _higher_** than hybrid workers (Figure 3).
-- Data is inconclusive since there are _many_ other potential factors leading to higher rates of burnout that are unrelated to working arrangements.
+- Although the data is **suggestive**, it is inconclusive. There are _many_ other potential factors leading to higher rates of burnout that are unrelated to working arrangements.
 - 'Burnout' is also a qualitative metric that is personal to each individual.
 
 ### Age
