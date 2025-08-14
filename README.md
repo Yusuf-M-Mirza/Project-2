@@ -23,7 +23,7 @@ Prior to beginning my analysis, PowerQuery was used to clean and preprocess all 
 
 ## Executive Summary
 ### Overview of Findings
-### Work Arrangement
+### Burnout
 Like it has been mentioned previously, since the pandemic, there has been an increased push towards remote working and its many supposed benefits. However, the data may show that to be untrue. 
 <div align="center">
   <img src="https://i.imgur.com/DEPG10Z.png" alt="TfL Cycle Hire" width="650" />
@@ -37,7 +37,27 @@ Like it has been mentioned previously, since the pandemic, there has been an inc
 - Although the data is **suggestive**, it is inconclusive. There are _many_ other potential factors leading to higher rates of burnout that are unrelated to working arrangements.
 - 'Burnout' is also a qualitative metric that is personal to each individual.
 
-### Age
+### Physical Illness
+A large factor that can tie into burnout from a role is the prevalence of physical illnesses amongst employees. Having to live through physical pain whilst fulfilling a demanding position would naturally take a great mental toll upon the individual, which can lead to far more serious issues later down the line. Therefore, exploring where physical illness stems from and _if_ there is anything we can do about it is important.
+
+<div align="center">
+  <img src="https://i.imgur.com/KQlUxpw.png" alt="TfL Cycle Hire" width="650" />
+  <p><em>Figure 4: Prevalence of Physical Illness by Occupation (±2% Margin of Error)</em></p>
+</div>
+
+- Very little significance between jobs and the prevalence of physical illness.
+- We can then conclude that any illness an individual experiences is unrelated to the career.
+- A theory could be that all of these positions are desk jobs and the illnesses such as eye strain, back pain and shoulder pain could all be a consequence of poor ergonomics in the work environment. However since the data does not provide any information based on employee work environment, this is left to assumption.
+
+This then begs the question of what kind of _arrangements_ lead to poor physical health which can be demonstrated in Figure 5 below.
+
+<div align="center">
+  <img src="https://i.imgur.com/QDcJOiV.png" alt="TfL Cycle Hire" width="500" />
+  <p><em>Figure 5: Percentage with Physical Illness by Work Arrangement</em></p>
+</div>
+
+- Across all 3 arrangements there seems to be an equal proportion of people who suffer physically.
+- We can then say it is in fact _not_ related to the working arrangement.
 
 
 
