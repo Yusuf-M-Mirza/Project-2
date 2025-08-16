@@ -26,9 +26,9 @@ Prior to beginning my analysis, PowerQuery was used to clean and preprocess all 
 ### Burnout
 Like it has been mentioned previously, since the pandemic, there has been an increased push towards remote working and its many supposed benefits. However, the data may show that to be untrue. 
 <div align="center">
-  <img src="https://i.imgur.com/DEPG10Z.png" alt="TfL Cycle Hire" width="650" />
+  <img src="https://i.imgur.com/DEPG10Z.png" alt="TfL Cycle Hire" width="500" />
   <p><em>Figure 2: Burnout Levels across Work Arrangements</em></p>
-  <img src="https://i.imgur.com/G1WzQxm.png" alt="TfL Cycle Hire" width="650" />
+  <img src="https://i.imgur.com/G1WzQxm.png" alt="TfL Cycle Hire" width="500" />
   <p><em>Figure 3: Aggregated Burnout Score by Work Arrangement (High=2, Medium=1, Low=0)</em></p>
 </div>
 
@@ -41,7 +41,7 @@ Like it has been mentioned previously, since the pandemic, there has been an inc
 A large factor that can tie into burnout from a role is the prevalence of physical illnesses amongst employees. Having to live through physical pain whilst fulfilling a demanding position would naturally take a great mental toll upon the individual, which can lead to far more serious issues later down the line. Therefore, exploring where physical illness stems from and _if_ there is anything we can do about it is important.
 
 <div align="center">
-  <img src="https://i.imgur.com/KQlUxpw.png" alt="TfL Cycle Hire" width="650" />
+  <img src="https://i.imgur.com/KQlUxpw.png" alt="TfL Cycle Hire" width="500" />
   <p><em>Figure 4: Prevalence of Physical Illness by Occupation (±2% Margin of Error)</em></p>
 </div>
 
@@ -56,9 +56,23 @@ This then begs the question of what kind of _arrangements_ lead to poor physical
   <p><em>Figure 5: Percentage with Physical Illness by Work Arrangement</em></p>
 </div>
 
-- Across all 3 arrangements there seems to be an equal proportion of people who suffer physically.
+- Across all 3 arrangements, there seems to be an equal proportion of people who suffer physically.
 - We can then say it is in fact _not_ related to the working arrangement.
 
+Within the dataset, there are only 2 possible variables that could affect prevalence of physical illness. They are, hours worked and age. Relating to what was said previously, it was suggested that physical ailments could be brought on by the strain of working at a desk for hours on end. A greater number of hours per week would naturally relate to a greater prevalence of illness. When coupled with how the body can deteriorate with age, if there is any sort of correlation, it should be clear.
+
+<div align="center">
+  <img src="https://i.imgur.com/4cgoMdY.png" alt="TfL Cycle Hire" width="500" />
+  <p><em>Figure 6: Percentage with Physical Illness by Age</em></p>
+  <img src="https://i.imgur.com/llqMaU3.png" alt="TfL Cycle Hire" width="500" />
+  <p><em>Figure 7: Percentage with Physical Illness by Hours Worked Per Week</em></p>
+</div>
+
+- No clear correlation between prevalence of physical illness and hours or ages worked.
+- Further confirmed by correlation coefficients calculated for each graph
+- **0.0066** for Figure 6 and **0.0084** for Figure 7
+
+In conclusion, there is no way of knowing for certain, using our current datase,t what causes large prevalence of physical illness. However, the data _does_ reveal something quite telling. From the age of 20 to 70 years old, there is no change in physical illness amongst employees. What we would instead expect is that we would see an exponential _increase_ as workers are older. I believe this is due to our dataset being comprised exclusively of desk jobs as opposed to more physical jobs. This supports the theory of poor ergonomics meaning a potential change an employer could make is to ensure proper equipment for employees.
 
 
 
