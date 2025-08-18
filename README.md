@@ -82,8 +82,11 @@ Mental Health is a bad, bad thing.
   <p><em>Figure 8: Prevalence of Physical Illness by Occupation (±2% Margin of Error)</em></p>
 </div>
 
-- Irrespective of cultural divides, there seems to be little difference on mental health on the region of employee.
+- Irrespective of cultural divides, there seems to be little difference in mental health on the region of employee.
 
-
+<div align="center">
+  <img src="https://i.imgur.com/fxWyJOZ.png" alt="TfL Cycle Hire" width="500" />
+  <p><em>Figure 8: Prevalence of Physical Illness by Occupation (±2% Margin of Error)</em></p>
+</div>
 
 
