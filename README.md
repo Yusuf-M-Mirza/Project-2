@@ -59,7 +59,7 @@ This then begs the question of what kind of _arrangements_ lead to poor physical
 - Across all 3 arrangements, there seems to be an equal proportion of people who suffer physically.
 - We can then say it is in fact _not_ related to the working arrangement.
 
-Within the dataset, there are only 2 possible variables that could affect prevalence of physical illness. They are, hours worked and age. Relating to what was said previously, it was suggested that physical ailments could be brought on by the strain of working at a desk for hours on end. A greater number of hours per week would naturally relate to a greater prevalence of illness. When coupled with how the body can deteriorate with age, if there is any sort of correlation, it should be clear.
+Within the dataset, there are only 2 possible variables that could affect the prevalence of physical illness. They are hours worked and age. Relating to what was said previously, it was suggested that physical ailments could be brought on by the strain of working at a desk for hours on end. A greater number of hours per week would naturally relate to a greater prevalence of illness. When coupled with how the body can deteriorate with age, if there is any sort of correlation, it should be clear.
 
 <div align="center">
   <img src="https://i.imgur.com/4cgoMdY.png" alt="TfL Cycle Hire" width="500" />
@@ -72,7 +72,18 @@ Within the dataset, there are only 2 possible variables that could affect preval
 - Further confirmed by correlation coefficients calculated for each graph
 - **0.0066** for Figure 6 and **0.0084** for Figure 7
 
-In conclusion, there is no way of knowing for certain, using our current datase,t what causes large prevalence of physical illness. However, the data _does_ reveal something quite telling. From the age of 20 to 70 years old, there is no change in physical illness amongst employees. What we would instead expect is that we would see an exponential _increase_ as workers are older. I believe this is due to our dataset being comprised exclusively of desk jobs as opposed to more physical jobs. This supports the theory of poor ergonomics meaning a potential change an employer could make is to ensure proper equipment for employees.
+In conclusion, there is no way of knowing for certain, using our current dataset, what causes the large prevalence of physical illness. However, the data _does_ reveal something quite telling. From the age of 20 to 70 years old, there is no change in physical illness amongst employees. What we would instead expect is that we would see an exponential _increase_ as workers are older. I believe this is due to our dataset being comprised exclusively of desk jobs as opposed to more physical jobs. This supports the theory of poor ergonomics, meaning a potential change an employer could make is to ensure proper equipment for employees.
+
+### Mental Illness
+Mental Health is a bad, bad thing.
+
+<div align="center">
+  <img src="https://i.imgur.com/IThdz7o.png" alt="TfL Cycle Hire" width="500" />
+  <p><em>Figure 8: Prevalence of Physical Illness by Occupation (±2% Margin of Error)</em></p>
+</div>
+
+- Irrespective of cultural divides, there seems to be little difference on mental health on the region of employee.
+
 
 
 
