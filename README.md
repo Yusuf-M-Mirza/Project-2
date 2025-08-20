@@ -25,6 +25,7 @@ Prior to beginning my analysis, PowerQuery was used to clean and preprocess all 
 ### Overview of Findings
 ### Burnout
 Like it has been mentioned previously, since the pandemic, there has been an increased push towards remote working and its many supposed benefits. However, the data may show that to be untrue. 
+
 <div align="center">
   <img src="https://i.imgur.com/DEPG10Z.png" alt="TfL Cycle Hire" width="500" />
   <p><em>Figure 2: Burnout Levels across Work Arrangements</em></p>
@@ -86,6 +87,13 @@ Mental Health is a bad, bad thing.
 
 <div align="center">
   <img src="https://i.imgur.com/fxWyJOZ.png" alt="TfL Cycle Hire" width="500" />
+  <p><em>Figure 8: Prevalence of Physical Illness by Occupation (±2% Margin of Error)</em></p>
+</div>
+
+- There is also no statistically significant difference between work-arrangment and prevalence of mental illness. Standard deviation bars overlap.
+
+<div align="center">
+  <img src="https://i.imgur.com/KAQoFtG.png" alt="TfL Cycle Hire" width="500" />
   <p><em>Figure 8: Prevalence of Physical Illness by Occupation (±2% Margin of Error)</em></p>
 </div>
 
