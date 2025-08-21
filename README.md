@@ -24,19 +24,28 @@ Prior to beginning my analysis, PowerQuery was used to clean and preprocess all 
 ## Executive Summary
 ### Overview of Findings
 ### Burnout
-Like it has been mentioned previously, since the pandemic, there has been an increased push towards remote working and its many supposed benefits. However, the data may show that to be untrue. 
 
-<div align="center">
-  <img src="https://i.imgur.com/y64cyAT.png" alt="TfL Cycle Hire" width="500" />
-  <p><em>Figure 2: Burnout Levels across Work Arrangements</em></p>
-  <img src="https://i.imgur.com/ioydxgr.png" alt="TfL Cycle Hire" width="500" />
-  <p><em>Figure 3: Aggregated Burnout Score by Work Arrangement (High=2, Medium=1, Low=0)</em></p>
-</div>
+- **Burnout is a widely used metric for ranking employee satisfaction** based on a number of factors such as: workload, organisational culture, management practices and work-life balance, to name a few.
 
-- **'Burnout'** is a common metric of gauging job satisfaction amongst employees.
-- Remote workers experience **37.8% _higher_** levels of burnout than onsite workers and **13.8% _higher_** than hybrid workers (Figure 3).
-- Although the data is **suggestive**, it is inconclusive. There are _many_ other potential factors leading to higher rates of burnout that are unrelated to working arrangements.
-- 'Burnout' is also a qualitative metric that is personal to each individual.
+- Remote employees report significantly higher levels of burnout relative to other groups:  
+  - **37.8% higher** compared to onsite employees  
+  - **13.8% higher** compared to hybrid employees  
+- Hybrid employees exhibit lower burnout scores than remote workers, but slightly higher than onsite employees. On-site employees consistently report the lowest burnout levels  
+
+- The shown correlation is inconclusive since it is a **self-reported, qualitative measure** with various confounding variables. This is supported by the **mass-overlap of standard deviations we see in Figure 3**.
+
+
+<p align="center">
+  <img src="https://i.imgur.com/y64cyAT.png" alt="Burnout Levels" width="45%" />
+  <img src="https://i.imgur.com/ioydxgr.png" alt="Aggregated Burnout Score" width="45%" />
+</p>
+
+<p align="center">
+  <em>Figure 2: Burnout Levels across Work Arrangements (left) &nbsp;&nbsp;|&nbsp;&nbsp; 
+  Figure 3: Aggregated Burnout Score by Work Arrangement (right)</em>
+</p>
+
+
 
 ### Physical Illness
 A large factor that can tie into burnout from a role is the prevalence of physical illnesses amongst employees. Having to live through physical pain whilst fulfilling a demanding position would naturally take a great mental toll upon the individual, which can lead to far more serious issues later down the line. Therefore, exploring where physical illness stems from and _if_ there is anything we can do about it is important.
