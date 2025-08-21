@@ -48,8 +48,9 @@ Prior to beginning my analysis, PowerQuery was used to clean and preprocess all 
 
 
 ### Physical Illness
-A large factor that can tie into burnout from a role is the prevalence of physical illnesses amongst employees. Having to live through physical pain whilst fulfilling a demanding position would naturally take a great mental toll upon the individual, which can lead to far more serious issues later down the line. Therefore, exploring where physical illness stems from and _if_ there is anything we can do about it is important.
-
+- Poor physical health is a large contributing factor to burnout alongside poor mental health. In combination, they can negatively affect rates of burnout to a high degree.
+- **Figure 4 shows statistical insignificance of job role on physical illness prevalence** as a result of how a majority of all the error bars overlap.
+- **UX Designer and Digital Marketing Specialist are statistically significant** and upon further investigation we can see 
 <div align="center">
   <img src="https://i.imgur.com/KQlUxpw.png" alt="TfL Cycle Hire" width="500" />
   <p><em>Figure 4: Prevalence of Physical Illness by Occupation (±2% Margin of Error)</em></p>
