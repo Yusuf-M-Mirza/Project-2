@@ -27,9 +27,9 @@ Prior to beginning my analysis, PowerQuery was used to clean and preprocess all 
 Like it has been mentioned previously, since the pandemic, there has been an increased push towards remote working and its many supposed benefits. However, the data may show that to be untrue. 
 
 <div align="center">
-  <img src="https://i.imgur.com/DEPG10Z.png" alt="TfL Cycle Hire" width="500" />
+  <img src="https://i.imgur.com/y64cyAT.png" alt="TfL Cycle Hire" width="500" />
   <p><em>Figure 2: Burnout Levels across Work Arrangements</em></p>
-  <img src="https://i.imgur.com/G1WzQxm.png" alt="TfL Cycle Hire" width="500" />
+  <img src="https://i.imgur.com/ioydxgr.png" alt="TfL Cycle Hire" width="500" />
   <p><em>Figure 3: Aggregated Burnout Score by Work Arrangement (High=2, Medium=1, Low=0)</em></p>
 </div>
 
