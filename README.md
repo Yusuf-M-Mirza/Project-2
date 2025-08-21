@@ -42,7 +42,7 @@ Prior to beginning my analysis, PowerQuery was used to clean and preprocess all 
 
 <p align="center">
   <em>Figure 2: Burnout Levels across Work Arrangements (left) &nbsp;&nbsp;|&nbsp;&nbsp; 
-  Figure 3: Aggregated Burnout Score by Work Arrangement (right)</em>
+  Figure 3: Aggregated Burnout Score by Work Arrangement (High=2,Medium=1,Low=0) (right)</em>
 </p>
 
 
