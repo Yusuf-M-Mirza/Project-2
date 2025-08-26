@@ -49,9 +49,13 @@ Prior to beginning my analysis, PowerQuery was used to clean and preprocess all 
 
 ### Physical Illness
 - Poor physical health is a large contributing factor to burnout alongside poor mental health. In combination, they can negatively affect rates of burnout to a high degree.
+  
 - **Figure 4 shows the statistical insignificance of job role on physical illness prevalence** as a result of how a majority of all the error bars overlap.
+  
 - **UX Designer 14.3% _higher_ than Digital Marketing Specialist** showing significantly higher rates of physical illness.
+  
 -  **Onsite employment is most prevalent amongst UX Designers**. Showing that working remotely or in a hybrid position can actually hedge against the development of physical issues.
+  
 -  **Aggregate burnout points are higher amongst Digital Marketing Specialists**. This contrasts our first statement that physical illness is linked to burnout when in the case between these two roles, it is shown to be the opposite case.
 <div align="center">
   <img src="https://i.imgur.com/KQlUxpw.png" alt="TfL Cycle Hire" width="500" />
