@@ -47,16 +47,16 @@ Prior to beginning my analysis, PowerQuery was used to clean and preprocess all 
 
 
 ### Physical Illness
-- Poor physical health is a large contributing factor to burnout alongside poor mental health. In combination, they can negatively affect rates of burnout to a high degree.
+- **_"Poor physical health is a large contributing factor to burnout alongside poor mental health. In combination, they can negatively affect rates of burnout to a high degree."_**
   
-- **Figure 4** reflects **Figure 3** in support of this hypothesis that in order of Remote, Hybrid and Onsite by how prevalent physical illness is amongst employees.
+- **Figure 4 shows no significant link between work arrangement and the prevalence of physical illnesses.** Which leads us to looking elsewhere for a potential link.
 
 <div align="center">
-  <img src="https://i.imgur.com/QDcJOiV.png" alt="TfL Cycle Hire" width="500" />
+  <img src="https://i.imgur.com/Sfd6lq9.png" alt="TfL Cycle Hire" width="500" />
   <p><em>Figure 4: Percentage with Physical Illness by Work Arrangement</em></p>
 </div>
   
-- **Figure 5 shows the statistical insignificance of job role on physical illness prevalence** as a result of how a majority of all the error bars overlap.
+- **Figure 5 shows the _general_ statistical insignificance of job role on physical illness prevalence**.
   
 - **UX Designer experiences 14.3% _higher_  percent than Digital Marketing Specialist** showing significantly higher rates of physical illness.
 
@@ -64,28 +64,27 @@ Prior to beginning my analysis, PowerQuery was used to clean and preprocess all 
   - Digital Marketing Specialists = **106.97**
   - UX Designers = **100.38**
   
--  **Onsite employment is most prevalent amongst UX Designers** (Figure 6). Thus supporting the previous findings that remote work contributes the most to burnout.
+-  **Onsite employment is most prevalent amongst UX Designers and Remote work is the least** (Figure 6). Supporting that remote work contributes _the most_ to burnout.
   
--  **Aggregate burnout points are higher amongst Digital Marketing Specialists**. This contrasts our first statement that physical illness is linked to burnout, when in the case between these two roles, it is shown to be the opposite and instead be linked to _working arrangement_.
 <div align="center">
   <img src="https://i.imgur.com/KQlUxpw.png" alt="TfL Cycle Hire" width="500" />
-  <p><em>Figure 4: Prevalence of Physical Illness by Occupation (±2% Margin of Error)</em></p>
+  <p><em>Figure 5: Prevalence of Physical Illness by Occupation (±2% Margin of Error)</em></p>
 </div>
 <div align="center">
   <img src="https://i.imgur.com/KMuMfSE.png" alt="TfL Cycle Hire" width="500" />
-  <p><em>Figure 5: Percentage Breakdown of Work Arrangements for Digital Marketing Specialists and UX Designers</em></p>
+  <p><em>Figure 6: Percentage Breakdown of Work Arrangements for Digital Marketing Specialists and UX Designers</em></p>
 </div>
 
 - **Advancements in the age of employees as well as the number of hours worked per week lead to higher rates of physical illness**.
 
-- Correlation coefficient is **0.0066 for Age** & **0.0084 for Hours Per Week**. It shows there is practically no correlation between either of these variables and the prevalence of physical illness, which thus dispproves the hypothesis for this dataset.
+- R² is **0.0066 for Age** & **0.0084 for Hours Per Week**. It shows there is practically no correlation between either of these variables and the prevalence of physical illness, which thus disproves the hypothesis for this dataset.
 
 <div align="center">
   <img src="https://i.imgur.com/h8Hxvvj.png" alt="TfL Cycle Hire" width="500" />
   <p><em>Figure 6: Percentage with Physical Illness by Age & Hours</em></p>
 </div>
 
-In conclusion, there is no way of knowing for certain, using our current dataset, what causes the large prevalence of physical illness. However, the data _does_ reveal something quite telling. From the age of 20 to 70 years old, there is no change in physical illness amongst employees. What we would instead expect is that we would see an exponential _increase_ as workers are older. I believe this is due to our dataset being comprised exclusively of desk jobs as opposed to more physical jobs. This supports the theory of poor ergonomics, meaning a potential change an employer could make is to ensure proper equipment for employees.
+The data shows us that the frequency of physical illness amongst employees provides no link to burnout whatsoever. Also, there is no link between Age, Hours Per Week and Work Arrangement to Physical Illness Prevalence. It can only then be linked to a variable that is beyond the scope of this dataset, since it seems highly unusual that physical ailments are equally present amongst 30-year-olds as they are amongst 60-year-olds.
 
 ### Mental Illness
 Mental Health is a bad, bad thing.
