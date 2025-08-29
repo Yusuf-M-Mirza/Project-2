@@ -47,7 +47,7 @@ Prior to beginning my analysis, PowerQuery was used to clean and preprocess all 
 
 
 ### Physical Illness
-- **_"Poor physical health is a large contributing factor to burnout alongside poor mental health. In combination, they can negatively affect rates of burnout to a high degree."_**
+- **_"Poor physical health is a large contributing factor to burnout. In combination, they can negatively affect rates of burnout to a high degree."_**
   
 - **Figure 4 shows no significant link between work arrangement and the prevalence of physical illnesses.** Which leads us to looking elsewhere for a potential link.
 
@@ -87,14 +87,23 @@ Prior to beginning my analysis, PowerQuery was used to clean and preprocess all 
 The data shows us that the frequency of physical illness amongst employees provides no link to burnout whatsoever. Also, there is no link between Age, Hours Per Week and Work Arrangement to Physical Illness Prevalence. It can only then be linked to a variable that is beyond the scope of this dataset, since it seems highly unusual that physical ailments are equally present amongst 30-year-olds as they are amongst 60-year-olds.
 
 ### Mental Illness
-Mental Health is a bad, bad thing.
+- **_"Poor mental health is a large contributing factor to burnout. In combination, they can negatively affect rates of burnout to a high degree."_**
+
+- **Onsite employees are ~9% more likely to develop a mental health condition than both Remote _and_ Hybrid employees.** Although seemingly small, the difference is shown to be statistically significant in Figure 7.
+
+- It demonstrates an **inverse correlation** between mental health rates and burnout rates shown in Figure 3.
 
 <div align="center">
-  <img src="https://i.imgur.com/IThdz7o.png" alt="TfL Cycle Hire" width="500" />
+  <img src="https://i.imgur.com/KAQoFtG.png" alt="TfL Cycle Hire" width="500" />
+  <p><em>Figure 7: Prevalence of Physical Illness by Occupation (±2% Margin of Error)</em></p>
+</div>
+
+<div align="center">
+  <img src="https://i.imgur.com/SXYnhnU.png" alt="TfL Cycle Hire" width="500" />
   <p><em>Figure 8: Prevalence of Physical Illness by Occupation (±2% Margin of Error)</em></p>
 </div>
 
-- Irrespective of cultural divides, there seems to be little difference in mental health on the region of employee.
+- Irrespective of cultural divides, there seems to be little difference in mental health on the region of employees.
 
 <div align="center">
   <img src="https://i.imgur.com/fxWyJOZ.png" alt="TfL Cycle Hire" width="500" />
@@ -102,10 +111,5 @@ Mental Health is a bad, bad thing.
 </div>
 
 - There is also no statistically significant difference between work-arrangment and prevalence of mental illness. Standard deviation bars overlap.
-
-<div align="center">
-  <img src="https://i.imgur.com/KAQoFtG.png" alt="TfL Cycle Hire" width="500" />
-  <p><em>Figure 8: Prevalence of Physical Illness by Occupation (±2% Margin of Error)</em></p>
-</div>
 
 
