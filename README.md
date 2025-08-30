@@ -91,12 +91,16 @@ The data shows us that the frequency of physical illness amongst employees provi
 
 - **Onsite employees are ~9% more likely to develop a mental health condition than both Remote _and_ Hybrid employees.** Although seemingly small, the difference is shown to be statistically significant in Figure 7.
 
-- It demonstrates an **inverse correlation** between mental health rates and burnout rates shown in Figure 3.
+- It demonstrates an **inverse correlation** between mental health rates and burnout rates, shown in Figure 3.
 
 <div align="center">
   <img src="https://i.imgur.com/KAQoFtG.png" alt="TfL Cycle Hire" width="500" />
   <p><em>Figure 7: Prevalence of Physical Illness by Occupation (±2% Margin of Error)</em></p>
 </div>
+
+- **Employees from both Africa and Asia are shown to have a statistically significantly higher risk of suffering from a mental illness.** With there being no significant difference across the remaining four regions.
+
+- **Historically, these regions have a far more intensive work culture**. In factors outside the scope of the dataset impacting work culture, these regions would 
 
 <div align="center">
   <img src="https://i.imgur.com/SXYnhnU.png" alt="TfL Cycle Hire" width="500" />
@@ -110,6 +114,6 @@ The data shows us that the frequency of physical illness amongst employees provi
   <p><em>Figure 8: Prevalence of Physical Illness by Occupation (±2% Margin of Error)</em></p>
 </div>
 
-- There is also no statistically significant difference between work-arrangment and prevalence of mental illness. Standard deviation bars overlap.
+- There is also no statistically significant difference between work arrangements and prevalence of mental illness. Standard deviation bars overlap.
 
 
