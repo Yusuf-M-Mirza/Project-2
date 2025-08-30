@@ -107,13 +107,15 @@ The data shows us that the frequency of physical illness amongst employees provi
   <p><em>Figure 8: Prevalence of Physical Illness by Occupation (±2% Margin of Error)</em></p>
 </div>
 
-- Irrespective of cultural divides, there seems to be little difference in mental health on the region of employees.
+- A typical reflection of poor mental health is a greater number of hours per week worked by employees.
+
+- **R² is **
 
 <div align="center">
   <img src="https://i.imgur.com/fxWyJOZ.png" alt="TfL Cycle Hire" width="500" />
   <p><em>Figure 8: Prevalence of Physical Illness by Occupation (±2% Margin of Error)</em></p>
 </div>
 
-- There is also no statistically significant difference between work arrangements and prevalence of mental illness. Standard deviation bars overlap.
+- There is also no statistically significant difference between work arrangements and the prevalence of mental illness. Standard deviation bars overlap.
 
 
