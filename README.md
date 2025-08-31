@@ -75,7 +75,7 @@ Prior to beginning my analysis, PowerQuery was used to clean and preprocess all 
   <p><em>Figure 6: Percentage Breakdown of Work Arrangements for Digital Marketing Specialists and UX Designers</em></p>
 </div>
 
-- **Advancements in the age of employees as well as the number of hours worked per week lead to higher rates of physical illness**.
+- **_"Advancements in the age of employees as well as the number of hours worked per week lead to higher rates of physical illness"_**.
 
 - R² is **0.0066 for Age** & **0.0084 for Hours Per Week**. It shows there is practically no correlation between either of these variables and the prevalence of physical illness, which thus disproves the hypothesis for this dataset.
 
@@ -107,15 +107,18 @@ The data shows us that the frequency of physical illness amongst employees provi
   <p><em>Figure 8: Prevalence of Physical Illness by Occupation (±2% Margin of Error)</em></p>
 </div>
 
-- A typical reflection of poor mental health is a greater number of hours per week worked by employees.
+- **_"A typical reflection of poor mental health is a greater number of hours per week worked by employees."_**
 
-- **R² is **
+- **R² is 0.018 for Work-Life Balance and 0.0020 for Social Isolation.** It shows practically no significant correlation between either of the two variables and Hours (representing hours worked per week). It refutes the hypothesis that working more hours per week harms either Work-Life Balance or Social Isolation.
+
+- **R² is 0.030 for the correlation between Work-Life Balance and Social Isolation.** Although larger than the relationship between either variable and hours per week, it is still below a 0.05 alpha which allows us to write it off as insignificant.
+
+- The data therefore suggests the hypothesis is indeed false.
 
 <div align="center">
   <img src="https://i.imgur.com/fxWyJOZ.png" alt="TfL Cycle Hire" width="500" />
   <p><em>Figure 8: Prevalence of Physical Illness by Occupation (±2% Margin of Error)</em></p>
 </div>
 
-- There is also no statistically significant difference between work arrangements and the prevalence of mental illness. Standard deviation bars overlap.
 
 
