@@ -1,32 +1,27 @@
 # 💻 The Hidden Cost of Overwork: A Data-Driven Analysis
 ## Project Background
-If the COVID-19 pandemic has taught us anything, it taught us how remote work was shown to be a viable alternative to the previous status-quo of onsite employment. Employees could find themselves eliminating their daily commute to oftentimes crowded office spaces that would usually take [54 minutes](https://www.gov.uk/government/statistics/transport-statistics-great-britain-2022/transport-statistics-great-britain-2022-domestic-travel) out of the day. Foregoing this aspect of the professional world has shown strong evidence of [improved productivity](https://hrnews.co.uk/how-remote-working-culture-improves-productivity-in-the-uk/), [mental health](https://www.analytics-365.com/blog/mental-health-benefits-of-remote-work/#:~:text=Remote%20and%20flexible%20work%20offer,mental%20health%20and%20business%20success.), as well as [job satisfaction](https://remote.com/blog/global-hr/global-work-life-survey).
+The company name is Thasos. We are a large pharmaceutical company that operates across all six populated continents. It was recently discovered that, although we aim to hire top talent to remain at the cutting edge of our industry, we experience high rates of employee turnover. The issue is of such concern that the Data Analytics team was given the task of finding out both **_why_** employees were leaving, but also **_what_** emergency measures could be implemented to resolve this issue as soon as possible.
 
-Using the dataset provided, I will aim to test the validity of these claims. I will be looking into sociological factors of employees such as age, job role and salary and how they influence both physical and mental health. Those findings will then be provided in this report and will be concluded with an 'ideal arrangement' of how we can optimise physical and mental health based on each job in each industry.
-
-Insights are provided investigating how each factor influences mental and physical health:
-
-- **Work Arragement**
-- **Age**
-- **Job Role**
-- **Hours Per Week**
-- **Salary Range**
+The team chose to research **three key areas** and discover their influencing variables to enact swift change:
+- Burnout
+- Physical Illness
+- Mental Illness
 
 ## Data Structure & Initial Checks
-The dataset used consisted of a single table that contained all the data needed shown in Figure 1.
+The dataset constructed came from surveys that were sent company-wide, as shown in Figure 1.
 <div align="center">
   <img src="https://i.imgur.com/vb2yuBh.png" alt="TfL Cycle Hire" width="200" />
   <p><em>Figure 1: Entity-Relationship Diagram of Dataset</em></p>
 </div>
 
-Prior to beginning my analysis, PowerQuery was used to clean and preprocess all of the data. It was also used to query the dataset. The data was then imported into Python as a .csv file and subsequently analysed. That left us with 3157 lines of clean, ordered, usable data.
+Prior to beginning the analysis, PowerQuery was used to clean and preprocess all of the data. It was also used to query the dataset, leaving us with 3157 lines of clean, ordered, usable data. The data was then imported into Python and subsequently analysed.
 
 ## Executive Summary
 ### Overview of Findings
 
 - The optimal working arrangement is **_Hybrid_**. It manages to balance between the high levels of social isolation prevalent amongst Remote workers and the high rates of mental illness amongst Onsite workers.
 
-- In the regions of both Africa & Asia, rates of mental illness are shown to be abnormally high relative to the other regions. This is most likely due to the intense work culture ingrained within those societies as well as their stigmatisation towards mental health. To counteract this, our company could enact more stringent policies to combat this problem. 
+- In the regions of both Africa & Asia, rates of mental illness are shown to be abnormally high relative to the other regions. This is most likely due to the intense work culture ingrained within those societies, as well as their stigmatisation towards mental health. To counteract this, our company could enact more stringent policies to combat this problem. 
 
 - Physical illness is shown to be a weak indicator of Burnout.
 - Mental Illness is a weak indicator of Burnout.
@@ -35,13 +30,9 @@ Prior to beginning my analysis, PowerQuery was used to clean and preprocess all 
 
 ### Burnout
 
-- **Burnout is a widely used metric for ranking employee satisfaction** based on a number of factors such as: workload, organisational culture, management practices and work-life balance, to name a few.
+- **Burnout is a widely used metric for ranking employee satisfaction** based on many factors such as: workload, organisational culture, management practices and work-life balance, to name a few.
 
-- Remote employees report significantly higher levels of burnout relative to other groups:  
-  - **37.8% higher** compared to onsite employees  
-  - **13.8% higher** compared to hybrid employees  
-
-- **Difference between Remote & Onsite employees is _statistically significant_.** Thus backing the hypothesis:
+- **Remote workers are experiencing a statistically significant 37.8% higher burnout than their Onsite counterparts.** Thus backing the hypothesis:
   - **_"Work-arrangement is the most significant variable in determining levels of Burnout, with Remote employees experiencing it the most and Onsite employees experiencing it the least."_**
 
 - Onsite working arrangements are therefore shown to be the best and most sustainable.
