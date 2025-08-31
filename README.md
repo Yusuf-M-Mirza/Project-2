@@ -24,11 +24,14 @@ Prior to beginning my analysis, PowerQuery was used to clean and preprocess all 
 ## Executive Summary
 ### Overview of Findings
 
-- Burnout is highest amongst Remote workers. Lowest amongst Onsite workers.
-- Mental Illness is highest amongst Onsite workers. Equal amongst Remote and Hybrid workers.
-- Physical Illness is not a strong predictor of burnout.
+- The optimal working arrangement is **_Hybrid_**. It manages to balance between the high levels of social isolation prevalent amongst Remote workers and the high rates of mental illness amongst Onsite workers.
+
+- In the regions of both Africa & Asia, rates of mental illness are shown to be abnormally high relative to the other regions. This is most likely due to the intense work culture ingrained within those societies as well as their stigmatisation towards mental health. To counteract this, our company could enact more stringent policies to combat this problem. 
+
+- Physical illness is shown to be a weak indicator of Burnout.
+- Mental Illness is a weak indicator of Burnout.
+
 - Demographic variables (age, salary, hours per week) have little change in the outcome of the presence of mental and physical health issues.
-- Regional work culture shapes mental health problems.
 
 ### Burnout
 
@@ -38,8 +41,10 @@ Prior to beginning my analysis, PowerQuery was used to clean and preprocess all 
   - **37.8% higher** compared to onsite employees  
   - **13.8% higher** compared to hybrid employees  
 
-- **Difference between Remote & Onsite employees is _statistically significant_.** Thus backing a the hypothesis:
-  - **_"Work-arrangement is the most significant variable in determining levels of Burnout, with Remote employees experiencing it the most."_**
+- **Difference between Remote & Onsite employees is _statistically significant_.** Thus backing the hypothesis:
+  - **_"Work-arrangement is the most significant variable in determining levels of Burnout, with Remote employees experiencing it the most and Onsite employees experiencing it the least."_**
+
+- Onsite working arrangements are therefore shown to be the best and most sustainable.
 
 <p align="center">
   <img src="https://i.imgur.com/y64cyAT.png" alt="Burnout Levels" width="45%" />
@@ -54,7 +59,7 @@ Prior to beginning my analysis, PowerQuery was used to clean and preprocess all 
 
 
 ### Physical Illness
-- **_"Poor physical health is a large contributing factor to burnout. In combination, they can negatively affect rates of burnout to a high degree."_**
+- **_"Poor physical health is a large contributing factor to burnout."_**
   
 - **Figure 4 shows no significant link between work arrangement and the prevalence of physical illnesses.** Which leads us to looking elsewhere for a potential link.
 
@@ -98,7 +103,7 @@ The data shows us that the frequency of physical illness amongst employees provi
 
 - **Onsite employees are ~9% more likely to develop a mental health condition than both Remote _and_ Hybrid employees.** Although seemingly small, the difference is shown to be statistically significant in Figure 7.
 
-- It demonstrates an **inverse correlation** between mental health rates and burnout rates, shown in Figure 3.
+- Onsite working is therefore not the best arrangement possible. According to both Figure 7 and Figure 3 it is **_Hybrid_** working. In Figure 3 it is shown to have no significant difference between either Remote or Onsite, and in Figure 7, it is shown to minimise mental health illnesses.
 
 <div align="center">
   <img src="https://i.imgur.com/KAQoFtG.png" alt="TfL Cycle Hire" width="500" />
