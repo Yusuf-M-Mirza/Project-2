@@ -23,6 +23,13 @@ Prior to beginning my analysis, PowerQuery was used to clean and preprocess all 
 
 ## Executive Summary
 ### Overview of Findings
+
+- Burnout is highest amongst Remote workers. Lowest amongst Onsite workers.
+- Mental Illness is highest amongst Onsite workers. Equal amongst Remote and Hybrid workers.
+- Physical Illness is not a strong predictor of burnout.
+- Demographic variables (age, salary, hours per week) have little change in the outcome of the presence of mental and physical health issues.
+- Regional work culture shapes mental health problems.
+
 ### Burnout
 
 - **Burnout is a widely used metric for ranking employee satisfaction** based on a number of factors such as: workload, organisational culture, management practices and work-life balance, to name a few.
