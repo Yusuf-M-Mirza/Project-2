@@ -50,25 +50,22 @@ Prior to beginning the analysis, PowerQuery was used to clean and preprocess all
 
 
 ### Physical Illness
-- **_"Poor physical health is a large contributing factor to burnout."_**
+- **_"Working at Thasos contributes greatly towards the development of physical illness."_**
   
-- **Figure 4 shows no significant link between work arrangement and the prevalence of physical illnesses.** Which leads us to looking elsewhere for a potential link.
+- **No significant link between work arrangement and increased presence of physical illnesses.** (Figure 4)
 
 <div align="center">
   <img src="https://i.imgur.com/Sfd6lq9.png" alt="TfL Cycle Hire" width="500" />
   <p><em>Figure 4: Percentage with Physical Illness by Work Arrangement</em></p>
 </div>
   
-- **Figure 5 shows the _general_ statistical insignificance of job role on physical illness prevalence**.
-  
-- **UX Designer experiences 14.3% _higher_  percent than Digital Marketing Specialist** showing significantly higher rates of physical illness.
+- **Figure 5 shows the _general_ statistical insignificance of job role on physical illness prevalence** across most jobs.
 
-- **Aggregate burnout is as follows for each position (standard deviation = 4.66).** It shows the difference in burnout is insignificant, which refutes our first hypothesis that physical illness is a contributing factor to levels of burnout
-  - Digital Marketing Specialists = **106.97**
-  - UX Designers = **100.38**
-  
--  **Onsite employment is most prevalent amongst UX Designers and Remote work is the least** (Figure 6). Supporting that remote work contributes _the most_ to burnout.
-  
+- Several careers show significantly higher rates of physical illnesses than when compared to others **suggesting that job role plays a _significant_ contribution**. 
+  - UX Designers are **14.3% _higher_** than Digital Marketing Specialists.
+  - IT Support / Financial Analyst
+  - HR Manager / Project Manager
+
 <div align="center">
   <img src="https://i.imgur.com/KQlUxpw.png" alt="TfL Cycle Hire" width="500" />
   <p><em>Figure 5: Prevalence of Physical Illness by Occupation (±2% Margin of Error)</em></p>
