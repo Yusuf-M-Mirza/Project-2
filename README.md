@@ -70,10 +70,6 @@ Prior to beginning the analysis, PowerQuery was used to clean and preprocess all
   <img src="https://i.imgur.com/KQlUxpw.png" alt="TfL Cycle Hire" width="500" />
   <p><em>Figure 5: Prevalence of Physical Illness by Occupation (±2% Margin of Error)</em></p>
 </div>
-<div align="center">
-  <img src="https://i.imgur.com/KMuMfSE.png" alt="TfL Cycle Hire" width="500" />
-  <p><em>Figure 6: Percentage Breakdown of Work Arrangements for Digital Marketing Specialists and UX Designers</em></p>
-</div>
 
 - **_"Advancements in the age of employees as well as the number of hours worked per week lead to higher rates of physical illness"_**.
 
@@ -84,14 +80,12 @@ Prior to beginning the analysis, PowerQuery was used to clean and preprocess all
   <p><em>Figure 6: Percentage with Physical Illness by Age & Hours</em></p>
 </div>
 
-The data shows us that the frequency of physical illness amongst employees provides no link to burnout whatsoever. Also, there is no link between Age, Hours Per Week and Work Arrangement to Physical Illness Prevalence. It can only then be linked to a variable that is beyond the scope of this dataset, since it seems highly unusual that physical ailments are equally present amongst 30-year-olds as they are amongst 60-year-olds.
+The data shows us a clear link between specific job roles and a greater or lesser prevalence of physical illness. However, neither Age, Hours per Week, nor work arrangement has any significant impact. This suggests that the reason is beyond the scope of the dataset, which would therefore require more data collection. A theory is that all of these positions are desk jobs. Spending more time at a desk with poor posture and ergonomics can lead to increased physical strain. However, to say this is a problem specifically at Thasos is preemptive; without figures on industry standards, we cannot conclude.
 
 ### Mental Illness
-- **_"Poor mental health is a large contributing factor to burnout. In combination, they can negatively affect rates of burnout to a high degree."_**
+- **_"Current working conditions at Thasos contribute greatly towards the development of mental illness."_**
 
 - **Onsite employees are ~9% more likely to develop a mental health condition than both Remote _and_ Hybrid employees.** Although seemingly small, the difference is shown to be statistically significant in Figure 7.
-
-- Onsite working is therefore not the best arrangement possible. According to both Figure 7 and Figure 3 it is **_Hybrid_** working. In Figure 3 it is shown to have no significant difference between either Remote or Onsite, and in Figure 7, it is shown to minimise mental health illnesses.
 
 <div align="center">
   <img src="https://i.imgur.com/KAQoFtG.png" alt="TfL Cycle Hire" width="500" />
@@ -100,8 +94,6 @@ The data shows us that the frequency of physical illness amongst employees provi
 
 - **Employees from both Africa and Asia are shown to have a statistically significantly higher risk of suffering from a mental illness.** With there being no significant difference across the remaining four regions.
 
-- **Historically, these regions have a far more intensive work culture**. In factors outside the scope of the dataset impacting work culture, these regions would 
-
 <div align="center">
   <img src="https://i.imgur.com/SXYnhnU.png" alt="TfL Cycle Hire" width="500" />
   <p><em>Figure 8: Prevalence of Physical Illness by Occupation (±2% Margin of Error)</em></p>
@@ -109,7 +101,7 @@ The data shows us that the frequency of physical illness amongst employees provi
 
 - **_"A typical reflection of poor mental health is a greater number of hours per week worked by employees."_**
 
-- **R² is 0.018 for Work-Life Balance and 0.0020 for Social Isolation.** It shows practically no significant correlation between either of the two variables and Hours (representing hours worked per week). It refutes the hypothesis that working more hours per week harms either Work-Life Balance or Social Isolation.
+- **R² is 0.018 for Work-Life Balance and 0.0020 for Social Isolation.** There is no significant correlation between either of the two variables and Hours (representing hours worked per week). It refutes the hypothesis that working more hours per week harms either Work-Life Balance or Social Isolation.
 
 - **R² is 0.030 for the correlation between Work-Life Balance and Social Isolation.** Although larger than the relationship between either variable and hours per week, it is still below a 0.05 alpha which allows us to write it off as insignificant.
 
