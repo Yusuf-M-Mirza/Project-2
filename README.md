@@ -35,8 +35,6 @@ Prior to beginning the analysis, PowerQuery was used to clean and preprocess all
 - **Remote workers are experiencing a statistically significant 37.8% higher burnout than their Onsite counterparts.** Thus backing the hypothesis:
   - **_"Work-arrangement is the most significant variable in determining levels of Burnout, with Remote employees experiencing it the most and Onsite employees experiencing it the least."_**
 
-- Onsite working arrangements are therefore shown to be the best and most sustainable.
-
 <p align="center">
   <img src="https://i.imgur.com/y64cyAT.png" alt="Burnout Levels" width="45%" />
   <img src="https://i.imgur.com/ioydxgr.png" alt="Aggregated Burnout Score" width="45%" />
@@ -87,8 +85,15 @@ The data shows us a clear link between specific job roles and a greater or lesse
 
 - **Onsite employees are ~9% more likely to develop a mental health condition than both Remote _and_ Hybrid employees.** Although seemingly small, the difference is shown to be statistically significant in Figure 7.
 
+- Figure 8 shows how social isolation can affect mental health, with either extreme being detrimental, suggesting a Hybrid working arrangement is the most beneficial.
+
 <div align="center">
   <img src="https://i.imgur.com/KAQoFtG.png" alt="TfL Cycle Hire" width="500" />
+  <p><em>Figure 7: Prevalence of Physical Illness by Occupation (±2% Margin of Error)</em></p>
+</div>
+
+<div align="center">
+  <img src="https://i.imgur.com/FsbM7oG.png" alt="TfL Cycle Hire" width="500" />
   <p><em>Figure 7: Prevalence of Physical Illness by Occupation (±2% Margin of Error)</em></p>
 </div>
 
