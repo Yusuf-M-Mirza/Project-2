@@ -64,7 +64,12 @@ Prior to beginning the analysis, PowerQuery was used to clean and preprocess all
   - IT Support / Financial Analyst
   - HR Manager / Project Manager
 
-- Additionally, all illnesses named in the dataset are musculoskeletal diseases (MSDs) and are all related to 
+- Additionally, all illnesses named in the dataset are musculoskeletal diseases (MSDs) and are all related to poor ergonomics whilst working desk jobs:
+  - Eye Strain
+  - Neck Pain
+  - Shoulder Pain
+  - Wrist Pain
+  - Back Pain
 
 <div align="center">
   <img src="https://i.imgur.com/KQlUxpw.png" alt="TfL Cycle Hire" width="500" />
@@ -81,7 +86,13 @@ Prior to beginning the analysis, PowerQuery was used to clean and preprocess all
 </div>
 
 - The data shows no clear link between any social variables and an increased risk of developing physical illness. The only **_real_** indicator is the job role.
-- This is still a company-wide epidemic. According to this [study](https://pmc.ncbi.nlm.nih.gov/articles/PMC10840111/?utm_source=chatgpt.com), 
+
+- It is still a company-wide epidemic. According to this [study](https://pmc.ncbi.nlm.nih.gov/articles/PMC10840111/?utm_source=chatgpt.com), MSDs are present in 33.8% - 95.3% of the adult population globally. That is a massive range. However, our dataset shows that for _all_ jobs, prevalence is in the uppermost percentiles suggesting a major problem at Thasos especially.
+
+- Although not available in this dataset, I would want to conduct a further investigation into what percentage of each shift is spent seated at a desk. The hypothesis we could propose is:
+  - **_"A greater proportion of work spent seated at a desk correlates to a greater proportion of MSDs"_**
+
+- The solution I would propose is to make greater investments into more ergonomic working arrangements for all employees. This [study](https://www.mdpi.com/2077-0383/14/9/3034?utm_source=chatgpt.com) showed a meaningful impact across the back, shoulders, neck and wrists; and this [study](https://www.emerald.com/shr/article/doi/10.1108/shr.2011.37210cab.006/354856/Reducing-the-impact-on-employers-and-employees-of) proved a 22:1 return on investment shown in increased productivity (coupled with a physiotherapist phone triage). 
 
 ### Mental Illness
 - **_"Current working conditions at Thasos contribute greatly towards the development of mental illness."_**
