@@ -64,6 +64,8 @@ Prior to beginning the analysis, PowerQuery was used to clean and preprocess all
   - IT Support / Financial Analyst
   - HR Manager / Project Manager
 
+- Additionally, all illnesses named in the dataset are musculoskeletal diseases (MSDs) and are all related to 
+
 <div align="center">
   <img src="https://i.imgur.com/KQlUxpw.png" alt="TfL Cycle Hire" width="500" />
   <p><em>Figure 5: Prevalence of Physical Illness by Occupation (±2% Margin of Error)</em></p>
@@ -78,7 +80,8 @@ Prior to beginning the analysis, PowerQuery was used to clean and preprocess all
   <p><em>Figure 6: Percentage with Physical Illness by Age & Hours</em></p>
 </div>
 
-The data shows us a clear link between specific job roles and a greater or lesser prevalence of physical illness. However, neither Age, Hours per Week, nor work arrangement has any significant impact. This suggests that the reason is beyond the scope of the dataset, which would therefore require more data collection. A theory is that all of these positions are desk jobs. Spending more time at a desk with poor posture and ergonomics can lead to increased physical strain. However, to say this is a problem specifically at Thasos is preemptive; without figures on industry standards, we cannot conclude.
+- The data shows no clear link between any social variables and an increased risk of developing physical illness. The only **_real_** indicator is the job role.
+- This is still a company-wide epidemic. According to this [study](https://pmc.ncbi.nlm.nih.gov/articles/PMC10840111/?utm_source=chatgpt.com), 
 
 ### Mental Illness
 - **_"Current working conditions at Thasos contribute greatly towards the development of mental illness."_**
