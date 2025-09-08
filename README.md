@@ -92,14 +92,16 @@ Prior to beginning the analysis, PowerQuery was used to clean and preprocess all
 - Although not available in this dataset, I would want to conduct a further investigation into what percentage of each shift is spent seated at a desk. The hypothesis we could propose is:
   - **_"A greater proportion of work spent seated at a desk correlates to a greater proportion of MSDs"_**
 
-- The solution I would propose is to make greater investments into more ergonomic working arrangements for all employees. This [study](https://www.mdpi.com/2077-0383/14/9/3034?utm_source=chatgpt.com) showed a meaningful impact across the back, shoulders, neck and wrists; and this [study](https://www.emerald.com/shr/article/doi/10.1108/shr.2011.37210cab.006/354856/Reducing-the-impact-on-employers-and-employees-of) proved a 22:1 return on investment shown in increased productivity (coupled with a physiotherapist phone triage). 
+- The solution I would propose is to make greater investments into more ergonomic working arrangements for all employees. This [study](https://www.mdpi.com/2077-0383/14/9/3034?utm_source=chatgpt.com) showed a meaningful impact across the back, shoulders, neck and wrists; and this [study](https://www.emerald.com/shr/article/doi/10.1108/shr.2011.37210cab.006/354856/Reducing-the-impact-on-employers-and-employees-of) proved a 22:1 return on investment shown in increased productivity (coupled with a physiotherapist phone triage).
+
+- This will reduce the need for employees to take time off or leave the company altogether, thereby lowering employee turnover.
 
 ### Mental Illness
 - **_"Current working conditions at Thasos contribute greatly towards the development of mental illness."_**
 
 - **Onsite employees are ~9% more likely to develop a mental health condition than both Remote _and_ Hybrid employees.** Although seemingly small, the difference is shown to be statistically significant in Figure 7.
 
-- Figure 8 shows how social isolation can affect mental health, with either extreme being detrimental, suggesting a Hybrid working arrangement is the most beneficial.
+- Figure 8 shows how social isolation can affect mental health, with either extreme being detrimental, suggesting a Hybrid working arrangement is the most beneficial, with a majority focus on working in the office.
 
 <div align="center">
   <img src="https://i.imgur.com/KAQoFtG.png" alt="TfL Cycle Hire" width="500" />
@@ -122,14 +124,36 @@ Prior to beginning the analysis, PowerQuery was used to clean and preprocess all
 
 - **R² is 0.018 for Work-Life Balance and 0.0020 for Social Isolation.** There is no significant correlation between either of the two variables and Hours (representing hours worked per week). It refutes the hypothesis that working more hours per week harms either Work-Life Balance or Social Isolation.
 
-- **R² is 0.030 for the correlation between Work-Life Balance and Social Isolation.** Although larger than the relationship between either variable and hours per week, it is still below a 0.05 alpha which allows us to write it off as insignificant.
-
-- The data therefore suggests the hypothesis is indeed false.
+- **R² is 0.030 for the correlation between Work-Life Balance and Social Isolation.** Although larger than the relationship between either variable and hours per week, it is still below a 0.05 alpha which allows us to write it off as insignificant, proving the hypothesis false.
 
 <div align="center">
   <img src="https://i.imgur.com/fxWyJOZ.png" alt="TfL Cycle Hire" width="500" />
   <p><em>Figure 8: Prevalence of Physical Illness by Occupation (±2% Margin of Error)</em></p>
 </div>
+
+- **_"Age and Gender both play significant roles in the prevalence of mental illness."_**
+
+- In accordance with the figure below, Male, Female and Non-Binary employees were plotted against their Age by the percentage of them who suffer from a mental illness. The results are below:
+  - **Male:**
+    - R = -0.052
+    - P = 0.894
+  - **Female:**
+    - R = 0.330
+    - P = 0.385
+  - **Non-Binary:**
+    - R = 0.176
+    - P = 0.651
+
+- **No statistically significant results disproved the null hypothesis.**
+ 
+<div align="center">
+  <img src="https://i.imgur.com/nLjWNLl.png" alt="TfL Cycle Hire" width="500" />
+  <p><em>Figure 8: Prevalence of Physical Illness by Occupation (±2% Margin of Error)</em></p>
+</div>
+
+- **Working environment is far more influential on mental health than any other variables**. Factors such as hours per week, age or gender were all shown to play little to no role whatsoever.
+- **Hybrid working is the most optimal as it balances social isolation and mental health**.
+- 
 
 
 
