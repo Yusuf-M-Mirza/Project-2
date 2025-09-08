@@ -152,8 +152,10 @@ Prior to beginning the analysis, PowerQuery was used to clean and preprocess all
 </div>
 
 - **Working environment is far more influential on mental health than any other variables**. Factors such as hours per week, age or gender were all shown to play little to no role whatsoever.
-- **Hybrid working is the most optimal as it balances social isolation and mental health**.
-- 
 
+- Mental health is poorest in the regions of Africa and Asia, most likely as a result of the work culture that is ingrained into those societies, as well as the negative stigma around mental health. This cannot be recorded in the dataset by Hours-Per-Week or Social Isolation. Countries in Asia, such as [Japan](https://www.ft.com/content/86bdcdd5-4b26-4cf2-b2e1-d0d460d88cca?utm_source=chatgpt.com), [Singapore](https://sg.adp.com/about-adp/press-centre/40-percent-of-singapore-workers-feel-they-work-up-to-10-hours-of-unpaid-time-every-week.aspx?utm_source=chatgpt.com), [China](https://www.ft.com/content/d5f01f68-9cbc-11e8-88de-49c908b1f264?utm_source=chatgpt.com), and [South Korea](https://pmc.ncbi.nlm.nih.gov/articles/PMC5285313/?utm_source=chatgpt.com), all have extensive cultures of unpaid overtime among employees, as well as extremely toxic social dynamics between managers and employees. When coupled with a lack of availability for mental health support, the data makes sense.
 
+- However, the local culture cannot be laid exclusively to blame. According to the [World Health Organisation](https://www.who.int/teams/mental-health-and-substance-use/promotion-prevention/mental-health-in-the-workplace?utm_source=chatgpt.com), 15% of adults are suffering from a mental illness. This is far exceeded our **average of 62.5%** across all regions, suggesting that employment at Thasos _does_ promote poor mental health.
+
+- To tackle this issue, providing employees with free and confidential counselling services to support mental health would be highly beneficial. It's [implementation](https://psychology.iresearchnet.com/articles/employee-assistance-programs-and-mental-health-interventions-in-the-workplace/?utm_source=chatgpt.com) proved effective in boosting productivity and lowering employee turnover. Additionally, training senior leaders with mental health first aid was [shown](https://www.medrxiv.org/content/10.1101/2024.01.17.23300197v1.full?utm_source=chatgpt.com) to provide a ~10x return on investment through reduction of abseteeism.
 
