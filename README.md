@@ -60,9 +60,9 @@ Prior to beginning the analysis, PowerQuery was used to clean and preprocess all
 - **Figure 5 shows the _general_ statistical insignificance of job role on physical illness prevalence** across most jobs.
 
 - Several careers show significantly higher rates of physical illnesses than when compared to others **suggesting that job role plays a _significant_ contribution**. 
-  - UX Designers are **14.3% _higher_** than Digital Marketing Specialists.
-  - IT Support / Financial Analyst
-  - HR Manager / Project Manager
+  - UX Designers are **14.3% _higher_** than Digital Marketing Specialists
+  - IT Support is **9.4% _higher_** than Financial Analysts
+  - Project Managers are **6.1% _higher_** HR Managers
 
 - Additionally, all illnesses named in the dataset are musculoskeletal diseases (MSDs) and are all related to poor ergonomics whilst working desk jobs:
   - Eye Strain
@@ -85,16 +85,16 @@ Prior to beginning the analysis, PowerQuery was used to clean and preprocess all
   <p><em>Figure 6: Percentage bearing a Physical Illness by Age & Hours</em></p>
 </div>
 
-- The data shows no clear link between any social variables and an increased risk of developing physical illness. The only **_real_** indicator is the job role.
+- **No clear link between any social variables and an increased risk of developing physical illness**. The only **_real_** indicator is the job role.
 
-- It is still a company-wide epidemic. According to this [study](https://pmc.ncbi.nlm.nih.gov/articles/PMC10840111/?utm_source=chatgpt.com), MSDs are present in 33.8% - 95.3% of the adult population globally. That is a massive range. However, our dataset shows that for _all_ jobs, prevalence is in the uppermost percentiles suggesting a major problem at Thasos especially.
+- It is still a company-wide epidemic. According to this [study](https://pmc.ncbi.nlm.nih.gov/articles/PMC10840111/?utm_source=chatgpt.com), **MSDs are present in 33.8% - 95.3% of the adult population globally**. That is a massive range. However, our dataset shows that for _all_ jobs, prevalence is in the uppermost percentiles, suggesting a major problem at Thasos, especially.
 
 - Although not available in this dataset, I would want to conduct a further investigation into what percentage of each shift is spent seated at a desk. The hypothesis we could propose is:
   - **_"A greater proportion of work spent seated at a desk correlates to a greater proportion of MSDs"_**
 
-- The solution I would propose is to make greater investments into more ergonomic working arrangements for all employees. This [study](https://www.mdpi.com/2077-0383/14/9/3034?utm_source=chatgpt.com) showed a meaningful impact across the back, shoulders, neck and wrists; and this [study](https://www.emerald.com/shr/article/doi/10.1108/shr.2011.37210cab.006/354856/Reducing-the-impact-on-employers-and-employees-of) proved a 22:1 return on investment shown in increased productivity (coupled with a physiotherapist phone triage).
+- The solution would be to invest heavily in more ergonomic working arrangements for all employees. This [study](https://www.mdpi.com/2077-0383/14/9/3034?utm_source=chatgpt.com) **showed a meaningful impact across the back, shoulders, neck and wrists**; and this [study](https://www.emerald.com/shr/article/doi/10.1108/shr.2011.37210cab.006/354856/Reducing-the-impact-on-employers-and-employees-of) proved **a 22:1 return on investment shown in increased productivity** (coupled with a physiotherapist phone triage).
 
-- This will reduce the need for employees to take time off or leave the company altogether, thereby lowering employee turnover.
+- Reducing rates of physical illness **_will_** reduce turnover as evidenced in [both](https://www.wilmarschaufeli.nl/publications/Schaufeli/204.pdf?utm_source=chatgpt.com) of [these](https://pmc.ncbi.nlm.nih.gov/articles/PMC6163261/?utm_source=chatgpt.com) studies showing a direct correlation between higher MSD prevalence and how they're associated with a greater 'intention to leave' amongst employees.
 
 ### Mental Illness
 - **_"Current working conditions at Thasos contribute greatly towards the development of mental illness."_**
@@ -117,7 +117,7 @@ Prior to beginning the analysis, PowerQuery was used to clean and preprocess all
 
 <div align="center">
   <img src="https://i.imgur.com/SXYnhnU.png" alt="TfL Cycle Hire" width="500" />
-  <p><em>Figure 9: Prevalence of Physical Illness by Occupation (±2% Margin of Error)</em></p>
+  <p><em>Figure 9: Prevalence of Physical Illness by Occupation</em></p>
 </div>
 
 - **_"A typical reflection of poor mental health is a greater number of hours per week worked by employees."_**
@@ -159,3 +159,4 @@ Prior to beginning the analysis, PowerQuery was used to clean and preprocess all
 
 - To tackle this issue, providing employees with free and confidential counselling services to support mental health would be highly beneficial. It's [implementation](https://psychology.iresearchnet.com/articles/employee-assistance-programs-and-mental-health-interventions-in-the-workplace/?utm_source=chatgpt.com) proved effective in boosting productivity and lowering employee turnover. Additionally, training senior leaders with mental health first aid was [shown](https://www.medrxiv.org/content/10.1101/2024.01.17.23300197v1.full?utm_source=chatgpt.com) to provide a ~10x return on investment through reduction of abseteeism.
 
+- Studies by [WHO](https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work?utm_source=chatgpt.com) and [OECD](https://www.oecd.org/content/dam/oecd/en/publications/reports/2021/11/fitter-minds-fitter-jobs_81033d43/a0815d0f-en.pdf?utm_source=chatgpt.com) concretely prove that aggressively combating mental illness will greatly reduce employee turnover.
