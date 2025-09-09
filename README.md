@@ -7,6 +7,8 @@ The team chose to research **three key areas** and discover their influencing va
 - Physical Illness
 - Mental Illness
 
+_All findings are based upon self-reported survey data, thus showing associations and not direct causations_.
+
 ## Data Structure & Initial Checks
 The dataset constructed came from surveys that were sent company-wide, as shown in Figure 1.
 <div align="center">
@@ -19,14 +21,15 @@ Prior to beginning the analysis, PowerQuery was used to clean and preprocess all
 ## Executive Summary
 ### Overview of Findings
 
-- The optimal working arrangement is **_Hybrid_**. It manages to balance between the high levels of social isolation prevalent amongst Remote workers and the high rates of mental illness amongst Onsite workers.
+- **_Hybrid_** working arrangement is optimal (**balancing social isolation and mental health**).
 
-- In the regions of both Africa & Asia, rates of mental illness are shown to be abnormally high relative to the other regions. This is most likely due to the intense work culture ingrained within those societies, as well as their stigmatisation towards mental health. To counteract this, our company could enact more stringent policies to combat this problem. 
+- Ergonomic upgrades for all employees. (**ROI 22:1, cut MSD turnover risk**).
 
-- Physical illness is shown to be a weak indicator of Burnout.
-- Mental Illness is a weak indicator of Burnout.
+- Global mental health support (**couselling + training, ROI 10:1**).
 
-- Demographic variables (age, salary, hours per week) have little change in the outcome of the presence of mental and physical health issues.
+- Very little difference made by issues such as Age, Gender or (contractual) Hours Per Week.
+
+- Implementation of all the above measures could lead to **_significant_** reductions in employee turnover.
 
 ### Burnout
 
@@ -65,11 +68,11 @@ Prior to beginning the analysis, PowerQuery was used to clean and preprocess all
   - Project Managers are **6.1% _higher_** HR Managers
 
 - Additionally, all illnesses named in the dataset are musculoskeletal diseases (MSDs) and are all related to poor ergonomics whilst working desk jobs:
-  - Eye Strain
-  - Neck Pain
-  - Shoulder Pain
-  - Wrist Pain
-  - Back Pain
+  - **Eye Strain**
+  - **Neck Pain**
+  - **Shoulder Pain**
+  - **Wrist Pain**
+  - **Back Pain**
 
 <div align="center">
   <img src="https://i.imgur.com/KQlUxpw.png" alt="TfL Cycle Hire" width="500" />
@@ -153,10 +156,10 @@ Prior to beginning the analysis, PowerQuery was used to clean and preprocess all
 
 - **Working environment is far more influential on mental health than any other variables**. Factors such as hours per week, age or gender were all shown to play little to no role whatsoever.
 
-- Mental health is poorest in the regions of Africa and Asia, most likely as a result of the work culture that is ingrained into those societies, as well as the negative stigma around mental health. This cannot be recorded in the dataset by Hours-Per-Week or Social Isolation. Countries in Asia, such as [Japan](https://www.ft.com/content/86bdcdd5-4b26-4cf2-b2e1-d0d460d88cca?utm_source=chatgpt.com), [Singapore](https://sg.adp.com/about-adp/press-centre/40-percent-of-singapore-workers-feel-they-work-up-to-10-hours-of-unpaid-time-every-week.aspx?utm_source=chatgpt.com), [China](https://www.ft.com/content/d5f01f68-9cbc-11e8-88de-49c908b1f264?utm_source=chatgpt.com), and [South Korea](https://pmc.ncbi.nlm.nih.gov/articles/PMC5285313/?utm_source=chatgpt.com), all have extensive cultures of unpaid overtime among employees, as well as extremely toxic social dynamics between managers and employees. When coupled with a lack of availability for mental health support, the data makes sense.
+- Mental health is poorest in Africa and Asia, driven by ingrained work cultures and the stigma surrounding mental illness. These effects are not captured in variables such as Hours-Per-Week or Social Isolation, yet the pattern is unmistakable. In [Japan](https://www.ft.com/content/86bdcdd5-4b26-4cf2-b2e1-d0d460d88cca?utm_source=chatgpt.com), [Singapore](https://sg.adp.com/about-adp/press-centre/40-percent-of-singapore-workers-feel-they-work-up-to-10-hours-of-unpaid-time-every-week.aspx?utm_source=chatgpt.com), [China](https://www.ft.com/content/d5f01f68-9cbc-11e8-88de-49c908b1f264?utm_source=chatgpt.com), and [South Korea](https://pmc.ncbi.nlm.nih.gov/articles/PMC5285313/?utm_source=chatgpt.com), cultures of unpaid overtime and toxic manager–employee dynamics intensify the problem. Combined with limited access to mental health support, these conditions explain the higher prevalence observed in the data.
 
-- However, the local culture cannot be laid exclusively to blame. According to the [World Health Organisation](https://www.who.int/teams/mental-health-and-substance-use/promotion-prevention/mental-health-in-the-workplace?utm_source=chatgpt.com), 15% of adults are suffering from a mental illness. This is far exceeded our **average of 62.5%** across all regions, suggesting that employment at Thasos _does_ promote poor mental health.
+- The [World Health Organisation](https://www.who.int/teams/mental-health-and-substance-use/promotion-prevention/mental-health-in-the-workplace?utm_source=chatgpt.com) shows 15% of adults are suffering from a mental illness; far exceeding our **average of 62.5%** across all regions. Employment at Thasos _does_ worsen mental health.
 
-- To tackle this issue, providing employees with free and confidential counselling services to support mental health would be highly beneficial. It's [implementation](https://psychology.iresearchnet.com/articles/employee-assistance-programs-and-mental-health-interventions-in-the-workplace/?utm_source=chatgpt.com) proved effective in boosting productivity and lowering employee turnover. Additionally, training senior leaders with mental health first aid was [shown](https://www.medrxiv.org/content/10.1101/2024.01.17.23300197v1.full?utm_source=chatgpt.com) to provide a ~10x return on investment through reduction of abseteeism.
+- Free and confidential counselling services to support mental health would be highly beneficial. Its [implementation](https://psychology.iresearchnet.com/articles/employee-assistance-programs-and-mental-health-interventions-in-the-workplace/?utm_source=chatgpt.com) proved effective in boosting productivity and lowering employee turnover. Training senior leaders with mental health first aid was [shown](https://www.medrxiv.org/content/10.1101/2024.01.17.23300197v1.full?utm_source=chatgpt.com) to provide **'a ~10x return on investment'** through reduction of absenteeism.
 
-- Studies by [WHO](https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work?utm_source=chatgpt.com) and [OECD](https://www.oecd.org/content/dam/oecd/en/publications/reports/2021/11/fitter-minds-fitter-jobs_81033d43/a0815d0f-en.pdf?utm_source=chatgpt.com) concretely prove that aggressively combating mental illness will greatly reduce employee turnover.
+- Studies by [WHO](https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work?utm_source=chatgpt.com) and [OECD](https://www.oecd.org/content/dam/oecd/en/publications/reports/2021/11/fitter-minds-fitter-jobs_81033d43/a0815d0f-en.pdf?utm_source=chatgpt.com) confirm aggressively combating mental illness greatly reduces employee turnover.
