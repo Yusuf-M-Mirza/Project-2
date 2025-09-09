@@ -32,11 +32,11 @@ Prior to beginning the analysis, PowerQuery was used to clean and preprocess all
 - Implementation of all the above measures could lead to **_significant_** reductions in employee turnover.
 
 ### Burnout
+- **H₀: _"Working at Thasos does not lead to Burnout."_**
 
 - **Burnout is a widely used metric for ranking employee satisfaction** based on many factors such as: workload, organisational culture, management practices and work-life balance, to name a few.
 
-- **Remote workers are experiencing a statistically significant 37.8% higher burnout than their Onsite counterparts.** Thus backing the hypothesis:
-  - **_"Work-arrangement is the most significant variable in determining levels of Burnout, with Remote employees experiencing it the most and Onsite employees experiencing it the least."_**
+- **Remote workers are experiencing a statistically significant 37.8% higher burnout than their Onsite counterparts.** Accept the null hypothesis.
 
 <p align="center">
   <img src="https://i.imgur.com/y64cyAT.png" alt="Burnout Levels" width="45%" />
@@ -51,7 +51,7 @@ Prior to beginning the analysis, PowerQuery was used to clean and preprocess all
 
 
 ### Physical Illness
-- **_"Working at Thasos contributes greatly towards the development of physical illness."_**
+- **H₀: _"Working at Thasos does not contribute towards the development of physical illness."_**
   
 - **No significant link between work arrangement and increased presence of physical illnesses.** (Figure 4)
 
@@ -67,19 +67,21 @@ Prior to beginning the analysis, PowerQuery was used to clean and preprocess all
   - IT Support is **9.4% _higher_** than Financial Analysts
   - Project Managers are **6.1% _higher_** HR Managers
 
-- Additionally, all illnesses named in the dataset are musculoskeletal diseases (MSDs) and are all related to poor ergonomics whilst working desk jobs:
+- Additionally, all illnesses named in the dataset are musculoskeletal diseases (MSDs) and are all related to poor ergonomics while working desk jobs:
   - **Eye Strain**
   - **Neck Pain**
   - **Shoulder Pain**
   - **Wrist Pain**
   - **Back Pain**
+ 
+ - Accept the null hypothesis
 
 <div align="center">
   <img src="https://i.imgur.com/KQlUxpw.png" alt="TfL Cycle Hire" width="500" />
   <p><em>Figure 5: Prevalence of Physical Illness by Occupation (±2% Margin of Error)</em></p>
 </div>
 
-- **_"Advancements in the age of employees as well as the number of hours worked per week lead to higher rates of physical illness"_**.
+- **H₀: _"Advancements in the age of employees as well as the number of hours worked per week lead to higher rates of physical illness"_**.
 
 - R² is **0.0066 for Age** & **0.0084 for Hours Per Week** (α=0.05). It shows there is practically no correlation between either of these variables and the prevalence of physical illness, which thus disproves the hypothesis for this dataset.
 
@@ -100,7 +102,7 @@ Prior to beginning the analysis, PowerQuery was used to clean and preprocess all
 - Reducing rates of physical illness **_will_** reduce turnover as evidenced in [both](https://www.wilmarschaufeli.nl/publications/Schaufeli/204.pdf?utm_source=chatgpt.com) of [these](https://pmc.ncbi.nlm.nih.gov/articles/PMC6163261/?utm_source=chatgpt.com) studies showing a direct correlation between higher MSD prevalence and how they're associated with a greater 'intention to leave' amongst employees.
 
 ### Mental Illness
-- **_"Current working conditions at Thasos contribute greatly towards the development of mental illness."_**
+- **H₀: _"Current working conditions at Thasos contribute greatly towards the development of mental illness."_**
 
 - **Onsite employees are ~9% more likely to develop a mental health condition than both Remote _and_ Hybrid employees.** Although seemingly small, the difference is shown to be statistically significant in Figure 7.
 
@@ -123,7 +125,7 @@ Prior to beginning the analysis, PowerQuery was used to clean and preprocess all
   <p><em>Figure 9: Prevalence of Physical Illness by Occupation</em></p>
 </div>
 
-- **_"A typical reflection of poor mental health is a greater number of hours per week worked by employees."_**
+- **H₀: _"A typical reflection of poor mental health is a greater number of hours per week worked by employees."_**
 
 - **R² is 0.018 for Work-Life Balance and 0.0020 for Social Isolation** (α=0.05). There is no significant correlation between either of the two variables and Hours (representing hours worked per week). It refutes the hypothesis that working more hours per week harms either Work-Life Balance or Social Isolation.
 
@@ -134,7 +136,7 @@ Prior to beginning the analysis, PowerQuery was used to clean and preprocess all
   <p><em>Figure 10:Prevalence of Mental Illness by Region</em></p>
 </div>
 
-- **_"Age and Gender both play significant roles in the prevalence of mental illness."_**
+- **H₀: _"Age and Gender both play no significant roles in the prevalence of mental illness."_**
 
 - In accordance with the figure below, Male, Female and Non-Binary employees were plotted against their Age by the percentage of them who suffer from a mental illness. The results are below:
   - **Male:**
@@ -147,7 +149,7 @@ Prior to beginning the analysis, PowerQuery was used to clean and preprocess all
     - R = 0.176
     - P = 0.651
 
-- **No statistically significant results disproved the null hypothesis.**
+- **No statistically significant results mean we accept the null hypothesis.**
  
 <div align="center">
   <img src="https://i.imgur.com/nLjWNLl.png" alt="TfL Cycle Hire" width="500" />
