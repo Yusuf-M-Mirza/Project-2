@@ -78,11 +78,11 @@ Prior to beginning the analysis, PowerQuery was used to clean and preprocess all
 
 - **_"Advancements in the age of employees as well as the number of hours worked per week lead to higher rates of physical illness"_**.
 
-- R² is **0.0066 for Age** & **0.0084 for Hours Per Week**. It shows there is practically no correlation between either of these variables and the prevalence of physical illness, which thus disproves the hypothesis for this dataset.
+- R² is **0.0066 for Age** & **0.0084 for Hours Per Week** (α=0.05). It shows there is practically no correlation between either of these variables and the prevalence of physical illness, which thus disproves the hypothesis for this dataset.
 
 <div align="center">
   <img src="https://i.imgur.com/h8Hxvvj.png" alt="TfL Cycle Hire" width="500" />
-  <p><em>Figure 6: Percentage with Physical Illness by Age & Hours</em></p>
+  <p><em>Figure 6: Percentage bearing a Physical Illness by Age & Hours</em></p>
 </div>
 
 - The data shows no clear link between any social variables and an increased risk of developing physical illness. The only **_real_** indicator is the job role.
@@ -105,30 +105,30 @@ Prior to beginning the analysis, PowerQuery was used to clean and preprocess all
 
 <div align="center">
   <img src="https://i.imgur.com/KAQoFtG.png" alt="TfL Cycle Hire" width="500" />
-  <p><em>Figure 7: Prevalence of Physical Illness by Occupation (±2% Margin of Error)</em></p>
+  <p><em>Figure 7: Percentage bearing a Mental Illness by Working Arrangement</em></p>
 </div>
 
 <div align="center">
   <img src="https://i.imgur.com/FsbM7oG.png" alt="TfL Cycle Hire" width="500" />
-  <p><em>Figure 7: Prevalence of Physical Illness by Occupation (±2% Margin of Error)</em></p>
+  <p><em>Figure 8: Percentage bearing a Mental Illness by Social Isolation Score</em></p>
 </div>
 
 - **Employees from both Africa and Asia are shown to have a statistically significantly higher risk of suffering from a mental illness.** With there being no significant difference across the remaining four regions.
 
 <div align="center">
   <img src="https://i.imgur.com/SXYnhnU.png" alt="TfL Cycle Hire" width="500" />
-  <p><em>Figure 8: Prevalence of Physical Illness by Occupation (±2% Margin of Error)</em></p>
+  <p><em>Figure 9: Prevalence of Physical Illness by Occupation (±2% Margin of Error)</em></p>
 </div>
 
 - **_"A typical reflection of poor mental health is a greater number of hours per week worked by employees."_**
 
-- **R² is 0.018 for Work-Life Balance and 0.0020 for Social Isolation.** There is no significant correlation between either of the two variables and Hours (representing hours worked per week). It refutes the hypothesis that working more hours per week harms either Work-Life Balance or Social Isolation.
+- **R² is 0.018 for Work-Life Balance and 0.0020 for Social Isolation** (α=0.05). There is no significant correlation between either of the two variables and Hours (representing hours worked per week). It refutes the hypothesis that working more hours per week harms either Work-Life Balance or Social Isolation.
 
-- **R² is 0.030 for the correlation between Work-Life Balance and Social Isolation.** Although larger than the relationship between either variable and hours per week, it is still below a 0.05 alpha which allows us to write it off as insignificant, proving the hypothesis false.
+- **R² is 0.030 for the correlation between Work-Life Balance and Social Isolation** (α=0.05). Although larger than the relationship between either variable and hours per week is still insignificant.
 
 <div align="center">
   <img src="https://i.imgur.com/fxWyJOZ.png" alt="TfL Cycle Hire" width="500" />
-  <p><em>Figure 8: Prevalence of Physical Illness by Occupation (±2% Margin of Error)</em></p>
+  <p><em>Figure 10:Prevalence of Mental Illness by Region</em></p>
 </div>
 
 - **_"Age and Gender both play significant roles in the prevalence of mental illness."_**
@@ -148,7 +148,7 @@ Prior to beginning the analysis, PowerQuery was used to clean and preprocess all
  
 <div align="center">
   <img src="https://i.imgur.com/nLjWNLl.png" alt="TfL Cycle Hire" width="500" />
-  <p><em>Figure 8: Prevalence of Physical Illness by Occupation (±2% Margin of Error)</em></p>
+  <p><em>Figure 11: Prevalence of Mental Illness by both Age & Gender</em></p>
 </div>
 
 - **Working environment is far more influential on mental health than any other variables**. Factors such as hours per week, age or gender were all shown to play little to no role whatsoever.
