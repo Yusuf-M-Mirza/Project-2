@@ -3,9 +3,9 @@
 The company name is Thasos. We are a large pharmaceutical company that operates across all six populated continents. It was recently discovered that, although we aim to hire top talent to remain at the cutting edge of our industry, we experience high rates of employee turnover. The issue is of such concern that the Data Analytics team was given the task of finding out both **_why_** employees were leaving, but also **_what_** emergency measures could be implemented to resolve this issue as soon as possible.
 
 The team chose to research **three key areas** and discover their influencing variables to enact swift change:
-- Burnout
-- Physical Illness
-- Mental Illness
+- **_Burnout_**
+- **_Physical Illness_**
+- **_Mental Illness_**
 
 _Disclaimer: All findings are based upon self-reported survey data, thus showing associations and not direct causations_.
 
@@ -23,7 +23,7 @@ Prior to beginning the analysis, PowerQuery was used to clean and preprocess all
 
 - **_Hybrid_** working arrangement is optimal (**balancing social isolation and mental health**).
 
-- Ergonomic upgrades for all employees. (**ROI 22:1, cut MSD turnover risk**).
+- Ergonomic upgrades for all employees + mobile physiotherapist triage. (**ROI 22:1, cut MSD turnover risk**).
 
 - Global mental health support (**couselling + training, ROI 10:1**).
 
@@ -36,7 +36,7 @@ Prior to beginning the analysis, PowerQuery was used to clean and preprocess all
 
 - **Burnout is a widely used metric for ranking employee satisfaction** based on many factors such as: workload, organisational culture, management practices and work-life balance, to name a few.
 
-- **Remote workers are experiencing a statistically significant 37.8% higher burnout than their Onsite counterparts.** Accept the null hypothesis.
+- **Remote workers are experiencing a statistically significant 37.8% higher burnout than their Onsite counterparts.** It is reflected in the correlating Social Isolation Scores, suggesting increased Social Isolation can be linked to greater levels of Burnout.
 
 <p align="center">
   <img src="https://i.imgur.com/y64cyAT.png" alt="Burnout Levels" width="45%" />
@@ -48,6 +48,13 @@ Prior to beginning the analysis, PowerQuery was used to clean and preprocess all
   Figure 3: Aggregated Burnout Score by Work Arrangement (High=2,Medium=1,Low=0) (right)</em>
 </p>
 
+- According to [DHR Global](https://www.staffingindustry.com/news/global-daily-news/82-of-workers-globally-experiencing-burnout-survey-says?utm_source=chatgpt.com) and [Randstad](https://www.randstad.co.uk/market-insights/employee-engagement/state-workplace-wellbeing-across-globe/?utm_source=chatgpt.com), figures on Burnout rates globally are 82% and 63% respectively.
+
+- If we count only Medium and High reported rates, as well as factor across all 3 working arrangements, Thasos has a company average of 76.5%. This proves Burnout at Thasos is the typical industry-standard and is not an exclusive issue. **_Accept the null hypothesis_**.
+
+- Burnout can also be caused by the working arrangement itself. GoRemotely.net [states](https://goremotely.net/blog/remote-working-statistics?utm_source=chatgpt.com) that 84% of remote workers work from home, and a [study](https://assets.eurofound.europa.eu/f/279033/f163d67b7f/ef1658en.pdf?utm_source=chatgpt.com) conducted by Eurofound explained how working from home erodes work-home boundaries, leaving employees unable to properly compartmentalise.
+
+- Tackling this issue involves Thasos limiting the number of future job postings that offer a Remote working option, as well as offering current Remote work employees the chance to work from the company office space; a [study](https://www.hcamag.com/asia/specialisation/benefits/is-hybrid-work-the-answer-to-widespread-burnout/493331?utm_source=chatgpt.com) by HCAMag showed 75% of employees showed a significant reduction in burnout symptoms.
 
 
 ### Physical Illness
