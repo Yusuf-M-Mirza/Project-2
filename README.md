@@ -7,7 +7,7 @@ The team chose to research **three key areas** and discover their influencing va
 - Physical Illness
 - Mental Illness
 
-_All findings are based upon self-reported survey data, thus showing associations and not direct causations_.
+_Disclaimer: All findings are based upon self-reported survey data, thus showing associations and not direct causations_.
 
 ## Data Structure & Initial Checks
 The dataset constructed came from surveys that were sent company-wide, as shown in Figure 1.
@@ -40,7 +40,7 @@ Prior to beginning the analysis, PowerQuery was used to clean and preprocess all
 
 <p align="center">
   <img src="https://i.imgur.com/y64cyAT.png" alt="Burnout Levels" width="45%" />
-  <img src="https://i.imgur.com/ioydxgr.png" alt="Aggregated Burnout Score" width="45%" />
+  <img src="https://i.imgur.com/lk0YOwi.png" alt="Aggregated Burnout Score" width="45%" />
 </p>
 
 <p align="center">
@@ -73,17 +73,15 @@ Prior to beginning the analysis, PowerQuery was used to clean and preprocess all
   - **Shoulder Pain**
   - **Wrist Pain**
   - **Back Pain**
- 
- - Accept the null hypothesis
 
 <div align="center">
   <img src="https://i.imgur.com/KQlUxpw.png" alt="TfL Cycle Hire" width="500" />
   <p><em>Figure 5: Prevalence of Physical Illness by Occupation (±2% Margin of Error)</em></p>
 </div>
 
-- **H₀: _"Advancements in the age of employees as well as the number of hours worked per week lead to higher rates of physical illness"_**.
+- Another reason could be that naturally older employees are more likely to suffer from MSDs than their younger counterparts. Working longer hours leaves less time for self-care, leaving employees more prone.
 
-- R² is **0.0066 for Age** & **0.0084 for Hours Per Week** (α=0.05). It shows there is practically no correlation between either of these variables and the prevalence of physical illness, which thus disproves the hypothesis for this dataset.
+- R² is **0.0066 for Age** & **0.0084 for Hours Per Week** (α=0.05). It shows there is practically no correlation between either of these variables and the prevalence of physical illness, which thus disproves the hypothesis for this dataset (Figure 6).
 
 <div align="center">
   <img src="https://i.imgur.com/h8Hxvvj.png" alt="TfL Cycle Hire" width="500" />
@@ -92,19 +90,19 @@ Prior to beginning the analysis, PowerQuery was used to clean and preprocess all
 
 - **No clear link between any social variables and an increased risk of developing physical illness**. The only **_real_** indicator is the job role.
 
-- It is still a company-wide epidemic. According to this [study](https://pmc.ncbi.nlm.nih.gov/articles/PMC10840111/?utm_source=chatgpt.com), **MSDs are present in 33.8% - 95.3% of the adult population globally**. That is a massive range. However, our dataset shows that for _all_ jobs, prevalence is in the uppermost percentiles, suggesting a major problem at Thasos, especially.
+- It is still a company-wide epidemic. According to this [study](https://pmc.ncbi.nlm.nih.gov/articles/PMC10840111/?utm_source=chatgpt.com), **MSDs are present in 33.8% - 95.3% of the adult population globally**. That is a massive range. For _all_ jobs, the average is **91.1%**, suggesting a major problem at Thasos especially. **_We reject the null hypothesis_**.
 
 - Although not available in this dataset, I would want to conduct a further investigation into what percentage of each shift is spent seated at a desk. The hypothesis we could propose is:
   - **_"A greater proportion of work spent seated at a desk correlates to a greater proportion of MSDs"_**
 
-- The solution would be to invest heavily in more ergonomic working arrangements for all employees. This [study](https://www.mdpi.com/2077-0383/14/9/3034?utm_source=chatgpt.com) **showed a meaningful impact across the back, shoulders, neck and wrists**; and this [study](https://www.emerald.com/shr/article/doi/10.1108/shr.2011.37210cab.006/354856/Reducing-the-impact-on-employers-and-employees-of) proved **a 22:1 return on investment shown in increased productivity** (coupled with a physiotherapist phone triage).
+- A solution would be to invest heavily in more ergonomic working arrangements for _all_ employees. This [study](https://www.mdpi.com/2077-0383/14/9/3034?utm_source=chatgpt.com) **showed a positive impact across the back, shoulders, neck and wrists**; and this [study](https://www.emerald.com/shr/article/doi/10.1108/shr.2011.37210cab.006/354856/Reducing-the-impact-on-employers-and-employees-of) proved **a 22:1 return on investment shown in increased productivity** (coupled with a physiotherapist phone triage).
 
 - Reducing rates of physical illness **_will_** reduce turnover as evidenced in [both](https://www.wilmarschaufeli.nl/publications/Schaufeli/204.pdf?utm_source=chatgpt.com) of [these](https://pmc.ncbi.nlm.nih.gov/articles/PMC6163261/?utm_source=chatgpt.com) studies showing a direct correlation between higher MSD prevalence and how they're associated with a greater 'intention to leave' amongst employees.
 
 ### Mental Illness
-- **H₀: _"Current working conditions at Thasos contribute greatly towards the development of mental illness."_**
+- **H₀: _"Current working conditions at Thasos do not contribute towards the development of mental illness."_**
 
-- **Onsite employees are ~9% more likely to develop a mental health condition than both Remote _and_ Hybrid employees.** Although seemingly small, the difference is shown to be statistically significant in Figure 7.
+- **Onsite employees are 9% more likely to develop a mental health condition than both Remote _and_ Hybrid employees.** The difference is shown to be statistically significant in Figure 7.
 
 - Figure 8 shows how social isolation can affect mental health, with either extreme being detrimental, suggesting a Hybrid working arrangement is the most beneficial, with a majority focus on working in the office.
 
@@ -125,9 +123,9 @@ Prior to beginning the analysis, PowerQuery was used to clean and preprocess all
   <p><em>Figure 9: Prevalence of Physical Illness by Occupation</em></p>
 </div>
 
-- **H₀: _"A typical reflection of poor mental health is a greater number of hours per week worked by employees."_**
+- A factor typically cited for worsening mental health is longer working hours.
 
-- **R² is 0.018 for Work-Life Balance and 0.0020 for Social Isolation** (α=0.05). There is no significant correlation between either of the two variables and Hours (representing hours worked per week). It refutes the hypothesis that working more hours per week harms either Work-Life Balance or Social Isolation.
+- **R² is 0.018 for Work-Life Balance and 0.0020 for Social Isolation** (α=0.05). There is no significant correlation between either of the two variables and Hours (representing hours worked per week). It refutes the hypothesis that working more hours per week harms either Work-Life Balance or Social Isolation (Figure 10).
 
 - **R² is 0.030 for the correlation between Work-Life Balance and Social Isolation** (α=0.05). Although larger than the relationship between either variable and hours per week is still insignificant.
 
@@ -136,9 +134,9 @@ Prior to beginning the analysis, PowerQuery was used to clean and preprocess all
   <p><em>Figure 10:Prevalence of Mental Illness by Region</em></p>
 </div>
 
-- **H₀: _"Age and Gender both play no significant roles in the prevalence of mental illness."_**
+- Another factor that can be cited is the sociological factors of Age and Gender on mental health within the Thasos work environment.
 
-- In accordance with the figure below, Male, Female and Non-Binary employees were plotted against their Age by the percentage of them who suffer from a mental illness. The results are below:
+- In accordance with Figure 11 below, Male, Female and Non-Binary employees were plotted against their Age by the percentage of them who suffer from a mental illness. The results are below:
   - **Male:**
     - R = -0.052
     - P = 0.894
@@ -149,7 +147,7 @@ Prior to beginning the analysis, PowerQuery was used to clean and preprocess all
     - R = 0.176
     - P = 0.651
 
-- **No statistically significant results mean we accept the null hypothesis.**
+- **No statistically significant results.**
  
 <div align="center">
   <img src="https://i.imgur.com/nLjWNLl.png" alt="TfL Cycle Hire" width="500" />
@@ -160,8 +158,8 @@ Prior to beginning the analysis, PowerQuery was used to clean and preprocess all
 
 - Mental health is poorest in Africa and Asia, driven by ingrained work cultures and the stigma surrounding mental illness. These effects are not captured in variables such as Hours-Per-Week or Social Isolation, yet the pattern is unmistakable. In [Japan](https://www.ft.com/content/86bdcdd5-4b26-4cf2-b2e1-d0d460d88cca?utm_source=chatgpt.com), [Singapore](https://sg.adp.com/about-adp/press-centre/40-percent-of-singapore-workers-feel-they-work-up-to-10-hours-of-unpaid-time-every-week.aspx?utm_source=chatgpt.com), [China](https://www.ft.com/content/d5f01f68-9cbc-11e8-88de-49c908b1f264?utm_source=chatgpt.com), and [South Korea](https://pmc.ncbi.nlm.nih.gov/articles/PMC5285313/?utm_source=chatgpt.com), cultures of unpaid overtime and toxic manager–employee dynamics intensify the problem. Combined with limited access to mental health support, these conditions explain the higher prevalence observed in the data.
 
-- The [World Health Organisation](https://www.who.int/teams/mental-health-and-substance-use/promotion-prevention/mental-health-in-the-workplace?utm_source=chatgpt.com) shows 15% of adults are suffering from a mental illness; far exceeding our **average of 62.5%** across all regions. Employment at Thasos _does_ worsen mental health.
+- The [World Health Organisation](https://www.who.int/teams/mental-health-and-substance-use/promotion-prevention/mental-health-in-the-workplace?utm_source=chatgpt.com) shows 15% of adults are suffering from a mental illness; far exceeding our **average of 62.5%** across all regions. Employment at Thasos _does_ worsen mental health. **_We reject the null hypothesis_**.
 
-- Free and confidential counselling services to support mental health would be highly beneficial. Its [implementation](https://psychology.iresearchnet.com/articles/employee-assistance-programs-and-mental-health-interventions-in-the-workplace/?utm_source=chatgpt.com) proved effective in boosting productivity and lowering employee turnover. Training senior leaders with mental health first aid was [shown](https://www.medrxiv.org/content/10.1101/2024.01.17.23300197v1.full?utm_source=chatgpt.com) to provide **'a ~10x return on investment'** through reduction of absenteeism.
+- Free and confidential counselling services to support mental health would be highly beneficial. Its [implementation](https://psychology.iresearchnet.com/articles/employee-assistance-programs-and-mental-health-interventions-in-the-workplace/?utm_source=chatgpt.com) proved effective in boosting productivity and lowering employee turnover. Training senior leaders with mental health first aid was [shown](https://www.medrxiv.org/content/10.1101/2024.01.17.23300197v1.full?utm_source=chatgpt.com) to provide **'a 10:1 return on investment'** through reduction of absenteeism.
 
 - Studies by [WHO](https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work?utm_source=chatgpt.com) and [OECD](https://www.oecd.org/content/dam/oecd/en/publications/reports/2021/11/fitter-minds-fitter-jobs_81033d43/a0815d0f-en.pdf?utm_source=chatgpt.com) confirm aggressively combating mental illness greatly reduces employee turnover.
