@@ -7,7 +7,7 @@ The team chose to research **three key areas** and discover their influencing va
 - **_Physical Illness_**
 - **_Mental Illness_**
 
-_Disclaimer: All findings are based upon self-reported survey data, thus showing associations and not direct causations_.
+_Disclaimer: All findings are based upon self-reported survey data, thus showing associations and not direct causations._
 
 ## Data Structure & Initial Checks
 The dataset constructed came from surveys that were sent company-wide, as shown in Figure 1.
@@ -50,11 +50,11 @@ Prior to beginning the analysis, PowerQuery was used to clean and preprocess all
 
 - According to [DHR Global](https://www.staffingindustry.com/news/global-daily-news/82-of-workers-globally-experiencing-burnout-survey-says?utm_source=chatgpt.com) and [Randstad](https://www.randstad.co.uk/market-insights/employee-engagement/state-workplace-wellbeing-across-globe/?utm_source=chatgpt.com), figures on Burnout rates globally are 82% and 63% respectively.
 
-- If we count only Medium and High reported rates, as well as factor across all 3 working arrangements, Thasos has a company average of 76.5%. This proves Burnout at Thasos is the typical industry-standard and is not an exclusive issue. **_Accept the null hypothesis_**.
+- If we count only Medium and High reported rates, as well as factor across all 3 working arrangements, Thasos has a company average of 76.5%. This proves **Burnout at Thasos is the typical industry-standard** and is not an exclusive issue. **_Accept the null hypothesis_**.
 
-- Burnout can also be caused by the working arrangement itself. GoRemotely.net [states](https://goremotely.net/blog/remote-working-statistics?utm_source=chatgpt.com) that 84% of remote workers work from home, and a [study](https://assets.eurofound.europa.eu/f/279033/f163d67b7f/ef1658en.pdf?utm_source=chatgpt.com) conducted by Eurofound explained how working from home erodes work-home boundaries, leaving employees unable to properly compartmentalise.
+- Burnout can also be caused by the working arrangement itself. GoRemotely.net [states](https://goremotely.net/blog/remote-working-statistics?utm_source=chatgpt.com) that **84% of remote workers work from home**, and a [study](https://assets.eurofound.europa.eu/f/279033/f163d67b7f/ef1658en.pdf?utm_source=chatgpt.com) conducted by Eurofound explained how working from home erodes work-home boundaries, leaving employees unable to properly compartmentalise.
 
-- Tackling this issue involves Thasos limiting the number of future job postings that offer a Remote working option, as well as offering current Remote work employees the chance to work from the company office space; a [study](https://www.hcamag.com/asia/specialisation/benefits/is-hybrid-work-the-answer-to-widespread-burnout/493331?utm_source=chatgpt.com) by HCAMag showed 75% of employees showed a significant reduction in burnout symptoms.
+- Tackling this issue involves Thasos limiting the number of future job postings that offer a Remote working option, as well as offering current Remote work employees the chance to work from the company office space; a [study](https://www.hcamag.com/asia/specialisation/benefits/is-hybrid-work-the-answer-to-widespread-burnout/493331?utm_source=chatgpt.com) by HCAMag showed **75% of employees showed a significant reduction in burnout symptoms**. Since (Figure 3), there is no statistical difference in Burnout between Onsite and Hybrid working, switching Remote workers to Hybrid will yield similar results, whilst also being a far more adaptable change.
 
 
 ### Physical Illness
