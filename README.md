@@ -30,11 +30,15 @@ Prior to beginning the analysis, PowerQuery was used to clean and preprocess all
 ## Executive Summary
 ### Overview of Findings
 
-- We found that a Remote working arrangement contributes the most to employee Burnout at Thasos. This can be linked to the high degree of social isolation experienced by those who work remotely. It is also potentially linked to a lack of divide between the professional and personal elements of one's life that leads to an inability to compartmentalise appropriately once work has ended.
+- We found that a Remote working arrangement contributes the most to employee Burnout at Thasos. This can be linked to the high degree of social isolation experienced by those who work remotely. It is also linked to a lack of divide between the professional and personal elements of one's life that leads to an inability to compartmentalise appropriately once work has ended.
 
 - Onsite employment also proved to be detrimental, but instead it was to mental health. The lack of autonomy, strenuous commute as well as the social pressures of an office environment are all contributing factors.
 
+- **_Hybrid_** working arrangement is optimal (**balancing social isolation and mental health; [evidenced to reduce turnover by 33%](https://www.bps.org.uk/research-digest/hybrid-workers-are-more-satisfied-quit-less-onsite-workers?utm_source=chatgpt.com) than working onsite**).
+
 - Job role was shown to be the _only_ factor that influences physical illness, with factors such as Age, as well as Hours Per Week, being shown to be insignificant.
+
+- Reducing rates of physical illness **_will_** reduce turnover as evidenced in [both](https://www.wilmarschaufeli.nl/publications/Schaufeli/204.pdf?utm_source=chatgpt.com) of [these](https://pmc.ncbi.nlm.nih.gov/articles/PMC6163261/?utm_source=chatgpt.com) studies showing a direct correlation between higher MSD prevalence and how they're associated with a greater 'intention to leave' amongst employees.
 
 - Mental health was also shown to be statistically significantly poorer in Asia and Africa than when compared to the other regions.
 
@@ -90,7 +94,7 @@ Prior to beginning the analysis, PowerQuery was used to clean and preprocess all
   <p><em>Figure 5: Prevalence of Physical Illness by Occupation (±2% Margin of Error)</em></p>
 </div>
 
-- Another reason could be that naturally older employees are more likely to suffer from MSDs than their younger counterparts. Working longer hours leaves less time for self-care, leaving employees more prone.
+- A common explanation is that older employees are more likely to suffer from MSDs than their younger counterparts. Additionally, working longer hours leaves less time for self-care, leaving employees more prone.
 
 - R² is **0.0066 for Age** & **0.0084 for Hours Per Week** (α=0.05). It shows there is practically no correlation between either of these variables and the prevalence of physical illness, which thus disproves the hypothesis for this dataset (Figure 6).
 
@@ -163,20 +167,18 @@ Prior to beginning the analysis, PowerQuery was used to clean and preprocess all
 
 - **Working environment is far more influential on mental health than any other variables**. Factors such as hours per week, age or gender were all shown to play little to no role whatsoever.
 
-- **Onsite employees were shown to be the worst affected by mental health** likely due to a combination of [lacking autonomy](https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-025-23794-x?utm_source=chatgpt.com), [draining commute](https://journals.sagepub.com/doi/10.1177/20413866221131404?utm_source=chatgpt.com), as well as [social pressures](https://pubmed.ncbi.nlm.nih.gov/34659039/).
+- **Onsite employees were shown to be the worst affected by mental health** with commonly cited reasons being a [lack of autonomy](https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-025-23794-x?utm_source=chatgpt.com), [a draining commute](https://journals.sagepub.com/doi/10.1177/20413866221131404?utm_source=chatgpt.com), as well as [social pressures](https://pubmed.ncbi.nlm.nih.gov/34659039/).
 
 - Mental health is poorest in Africa and Asia, driven by ingrained work cultures and the stigma surrounding mental illness. These effects are not captured in variables such as Hours-Per-Week or Social Isolation, yet the pattern is unmistakable. In [Japan](https://www.ft.com/content/86bdcdd5-4b26-4cf2-b2e1-d0d460d88cca?utm_source=chatgpt.com), [Singapore](https://sg.adp.com/about-adp/press-centre/40-percent-of-singapore-workers-feel-they-work-up-to-10-hours-of-unpaid-time-every-week.aspx?utm_source=chatgpt.com), [China](https://www.ft.com/content/d5f01f68-9cbc-11e8-88de-49c908b1f264?utm_source=chatgpt.com), and [South Korea](https://pmc.ncbi.nlm.nih.gov/articles/PMC5285313/?utm_source=chatgpt.com), cultures of unpaid overtime and toxic manager–employee dynamics intensify the problem. Combined with limited access to mental health support, these conditions explain the higher prevalence observed in the data.
 
 - The [World Health Organisation](https://www.who.int/teams/mental-health-and-substance-use/promotion-prevention/mental-health-in-the-workplace?utm_source=chatgpt.com) shows 15% of adults are suffering from a mental illness; far exceeding our **average of 62.5%** across all regions. Employment at Thasos _does_ worsen mental health. **_We reject the null hypothesis_**.
 
 ## Recommedations
-- **_Hybrid_** working arrangement is optimal (**balancing social isolation and mental health; [evidenced to reduce turnover by 33%](https://www.bps.org.uk/research-digest/hybrid-workers-are-more-satisfied-quit-less-onsite-workers?utm_source=chatgpt.com) than working onsite**).
+- To _prevent_ Burnout from Remote working, Thasos should limit the number of future job postings that offer a Remote working option, as well as offering current Remote work employees the chance to work from the company office space; a [study](https://www.hcamag.com/asia/specialisation/benefits/is-hybrid-work-the-answer-to-widespread-burnout/493331?utm_source=chatgpt.com) by HCAMag showed **75% of employees showed a significant reduction in burnout symptoms**. Since (Figure 3) there is no statistical difference in Burnout between Onsite and Hybrid working, switching Remote workers to Hybrid will yield similar results, whilst also being a far more adaptable change.
 
-- - Tackling this issue involves Thasos limiting the number of future job postings that offer a Remote working option, as well as offering current Remote work employees the chance to work from the company office space; a [study](https://www.hcamag.com/asia/specialisation/benefits/is-hybrid-work-the-answer-to-widespread-burnout/493331?utm_source=chatgpt.com) by HCAMag showed **75% of employees showed a significant reduction in burnout symptoms**. Since (Figure 3), there is no statistical difference in Burnout between Onsite and Hybrid working, switching Remote workers to Hybrid will yield similar results, whilst also being a far more adaptable change.
+- To _prevent_ Mental Illness from Onsite working, Thasos should also limit future job postings from being exclusively in-office and attempt to offer greater flexibility. A [study conducted by BPS](https://www.bps.org.uk/research-digest/hybrid-workers-are-more-satisfied-quit-less-onsite-workers?utm_source=chatgpt.com) showed a 33% reduction in turnover amongst employees who were Hybrid as opposed to Onsite. The participants in the Hybrid grouped worked a 3:2 day split between onsite and remote work, which as evidenced in **Figure 8**, is more optimal than 2:3 when balancing social isolation and mental health. Current onsite workers should therefore be offered a 3:2 split Hybrid arrangement if possible.
 
-- A solution would be to invest heavily in more ergonomic working arrangements for _all_ employees. This [study](https://www.mdpi.com/2077-0383/14/9/3034?utm_source=chatgpt.com) **showed a positive impact across the back, shoulders, neck and wrists**; and this [study](https://www.emerald.com/shr/article/doi/10.1108/shr.2011.37210cab.006/354856/Reducing-the-impact-on-employers-and-employees-of) proved **a 22:1 return on investment shown in increased productivity** (coupled with a physiotherapist phone triage).
-
-- Reducing rates of physical illness **_will_** reduce turnover as evidenced in [both](https://www.wilmarschaufeli.nl/publications/Schaufeli/204.pdf?utm_source=chatgpt.com) of [these](https://pmc.ncbi.nlm.nih.gov/articles/PMC6163261/?utm_source=chatgpt.com) studies showing a direct correlation between higher MSD prevalence and how they're associated with a greater 'intention to leave' amongst employees.
+- Tackling MSDs involves heavily investing in more ergonomic working arrangements for _all_ employees. A [study by MDPI](https://www.mdpi.com/2077-0383/14/9/3034?utm_source=chatgpt.com) **showed a positive impact across the back, shoulders, neck and wrists**; and this [study](https://www.emerald.com/shr/article/doi/10.1108/shr.2011.37210cab.006/354856/Reducing-the-impact-on-employers-and-employees-of) proved **a 22:1 return on investment shown in increased productivity** when coupled with a physiotherapist telephone triage.
 
 - Free and confidential counselling services to support mental health would be highly beneficial. Its [implementation](https://psychology.iresearchnet.com/articles/employee-assistance-programs-and-mental-health-interventions-in-the-workplace/?utm_source=chatgpt.com) proved effective in boosting productivity and lowering employee turnover. Training senior leaders with mental health first aid was [shown](https://www.medrxiv.org/content/10.1101/2024.01.17.23300197v1.full?utm_source=chatgpt.com) to provide **'a 10:1 return on investment'** through reduction of absenteeism.
 
