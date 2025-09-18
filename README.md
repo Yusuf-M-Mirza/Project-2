@@ -9,7 +9,7 @@
   - Mental Illness
 - Recommendations
 ## Project Background
-The company name is Thasos. We are a large pharmaceutical company that operates across all six populated continents. It was recently discovered that, although we aim to hire top talent to remain at the cutting edge of our industry, we experience high rates of employee turnover. The issue is of such concern that the Data Analytics team was given the task of finding out both **_why_** employees were leaving, but also **_what_** emergency measures could be implemented to resolve this issue as soon as possible.
+We are Thasos, a large pharmaceutical company that operates across all six populated continents. It was recently discovered that, although we aim to hire top talent to remain at the cutting edge of our industry, we experience high rates of employee turnover. The issue is of such concern that the Data Analytics team was given the task of finding out both **_why_** employees were leaving, but also **_what_** emergency measures could be implemented to resolve this issue as soon as possible.
 
 The team chose to research **three key areas** and discover their influencing variables to enact swift change:
 - **_Burnout_**
